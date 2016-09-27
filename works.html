@@ -16,6 +16,23 @@
 	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 	<!-- modernizr -->
 	<script src="js/modernizr.js"></script>
+	<style>
+		table {
+		    font-family: arial, sans-serif;
+		    border-collapse: collapse;
+		    width: 100%;
+		}
+
+		td, th {
+		    border: 1px solid #dddddd;
+		    text-align: left;
+		    padding: 8px;
+		}
+
+		tr:nth-child(even) {
+		    background-color: #dddddd;
+		}
+	</style>
 	<!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
@@ -26,16 +43,7 @@
 	header section -->
 
 	<div class="banner" id="home"></div>
-	<header class="header">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="top-nav"></div>
-				<div class="top-click">
-					<a href="#"><i class="fa fa-plus"></i></a>
-					<a href="#"><i class="fa fa-minus"></i></a>
-				</div>
-			</div>
-		</div>
+	<header class="header">		
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 no-padding">
@@ -45,8 +53,7 @@
 						<h4>Information and Communication Technology | Human Computer Interaction</h4>
 						<div class="social-icons">
 							<a href="https://www.facebook.com/anmol.anubhai"><i class="fa fa-facebook"></i></a>			
-							<a href="https://in.linkedin.com/in/anmol-anubhai-aa0b1ab0"><i class="fa fa-linkedin"></i></a>
-							<a href="https://plus.google.com/u/0/103673523909800381669"><i class="fa fa-google-plus"></i></a>
+							<a href="https://in.linkedin.com/in/anmol-anubhai-aa0b1ab0"><i class="fa fa-linkedin"></i></a>						
 							<a href="https://thinkinghat94.wordpress.com/"><i class="fa fa-wordpress"></i></a>
 						</div>
 					</div>
@@ -68,9 +75,9 @@
 							    <!-- Collect the nav links, forms, and other content for toggling -->
 							    <div class="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
 							      <ul class="nav navbar-nav">
-							        <li><a href="index.html">home</a></li>
-							        <li><a href="about.html">about me</a></li>
-							        <li><a href="works.html">portfolio</a></li>							        
+							        <li><a href="index.html">about me</a></li>							       
+							        <li><a href="works.html">portfolio</a></li>	
+							        <li><a href="achieve.html">achievements</a></li>						        
 							      </ul>
 							    </div><!-- /.navbar-collapse -->
 							  </div><!-- /.container-fluid -->
@@ -87,7 +94,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h2>My latest Works</h2>
+					<h2>Some of my Work</h2>
 				</div>
 				<!-- single portfolio item -->
 				<div class="col-md-4 col-sm-6 mix web-development all" data-myorder="2">
@@ -104,7 +111,7 @@
 						      <div class="modal-content text-center">
 						        <div class="modal-header">
 						          <button type="button" class="close" data-dismiss="modal">&times;</button>
-						          <h4>Kahinee: An IVR/VAS initiative for Rural Healthcare</h4>
+						          <h4><b>Kahinee: An IVR/VAS initiative for Rural Healthcare</b></h4>
 						        </div>
 						        <div class="col-md-12">
 							        <div class="modal-body col-md-8 col-md-offset-2">
@@ -119,12 +126,12 @@
 							        		<li>www.kahinee.in</li>
 							        	</ul>
 										<p>							          	
-										<bold><br>Problem Identification</br>
+										<bold><br><b>Problem Identification</b></br>
 										<br>1. Initial Ideas and assumptions</br>
 										<p>Initially, we were looking at a variety of ideas that used image processing. We intended to develop a low cost device to check the eye number in rural areas as well as an intelligent android based application that gave you real time information about the micro-organisms or bacteria present on any given location. We believed that they will be accepted and absorbed by the rural public health centres as there might be a lack of devices that could be effectively used to cater to the health requirements of the rural citizens. We were proved wrong when we visited the public health centres of villages in and around Ahmedabad.</p>
 										</p>
 										<p>
-										<br>2. Field Research</br>
+										<br><b>2. Field Research</b></br>
 										<p>We gathered the following information from our extensive and thorough field research conducted in the villages in and around Ahmedabad. We met doctors who had their private clinics as well as doctors, nurses and micro-biologists working at the Public Health Centre. We visited the government hospitals in the city as well as talked to community health workers. We also interviewed a lot of rural residents hailing from varying backgrounds. We realised the following points:</p>
 										<p>
 										1) Majority of people in rural areas are tobacco addicts. They are addicted to such an extent that they are now unable to even open their mouths wide enough to be able to eat normal food.<br>
@@ -136,20 +143,20 @@
 										</p>
 										</p>
 										<p>
-										<br>3. Needs</br>
+										<br><b>3. Needs</b></br>
 										<p>We realized the following needs of the rural residents:<br>
 										1) Desire to learn about health issues and steps to be taken but without the need to be literate.<br>
 										2) To want to talk about their symptoms in their local language and without inhibitions.<br>
 										</p>
 										</p>
-										<p><br>4. Problem Statement</br>
+										<p><br><b>4. Problem Statement</b></br>
 										<p>Educate rural area residents as well as community health workers about maternal healthcare, child healthcare, nutrition and anaemia using voice assisted modules without the need to be literate or have internet access.
 										<br></p>
 										<p>
-										<br>5. Approach:</br>
+										<br><b>5. Approach:</b></br>
 										<p>Kahinee is an IVR/VAS system intended to impart education and awareness in rural areas about maternal and child care, nutrition, anaemia and government health policies as well as facilities. We analysed and discovered in our field visits to a number of villages that while there is an increasing awareness about different healthcare facilities and a desire to learn, there are few means of access to this information for the common rural area resident. Adding to that, illiteracy is still majorly prevalent because of which learning about health issues from the print medium is not a viable option.</p>
-										<p>A toll free number shall be provided to rural residents using which they can learn as well as solve their queries pertaining to different health issues in their local language via audio notes and short audio plays. Kahinee aims to impart healthcare education to ASHA workers, PHCs’ doctors (Primary Healthcare Centre), nurses and rural patients.  ASHA workers are selected from the rural citizens and their goals are to help residents understand health issues as well as give them the medicines recommended by the doctors at the PHC. Our system uses creatively designed audio plays and scripts to be able to train them about varied health issues.</p>
-										<p>The phase one implementation of this system consists of educating and spreading awareness through short engaging audio plays and stories. The phase two of this system will consist of a service using which people in rural areas can leave an audio note describing their symptoms in their local language. Kahinee will send these audio notes to urban doctors. The phase one pilot test has been successfully implemented in the Jhagdia district of Bharuch with Harvard based NGO - Barakat Bundle (www.barakatbundle.org ), SEWA Rural and IIPH.</p></p>
+										<p>We decided to provide a toll free number to rural residents using which they can learn as well as solve their queries pertaining to different health issues in their local language via audio notes and short audio plays. Kahinee aimed to impart healthcare education to ASHA workers, PHCs’ doctors (Primary Healthcare Centre), nurses and rural patients.  ASHA workers are selected from the rural citizens and their goals are to help residents understand health issues as well as give them the medicines recommended by the doctors at the PHC. Our system used creatively designed audio plays and scripts to be able to train them about varied health issues.</p>
+										<p>The phase one implementation of this system consisted of educating and spreading awareness through short engaging audio plays and stories. The phase two of this system was to consist of a service using which people in rural areas can leave an audio note describing their symptoms in their local language. Kahinee will send these audio notes to urban doctors. The phase one pilot test has been successfully implemented in the Jhagdia district of Bharuch with Harvard based NGO - Barakat Bundle (www.barakatbundle.org ), SEWA Rural and IIPH.</p></p>
 							        </div>
 						        </div>
 						        <div class="modal-footer">
@@ -176,34 +183,33 @@
 						      <div class="modal-content text-center">
 						        <div class="modal-header">
 						          <button type="button" class="close" data-dismiss="modal">&times;</button>
-						          <h4>HCI INTERNSHIP AT AWAAZ.DE</h4>
+						          <h4><b>HCI INTERNSHIP AT AWAAZ.DE</b></h4>
 						        </div>
 						        <div class="col-md-12">
 							        <div class="modal-body col-md-8 col-md-offset-2">
-							        	<img src="awaazde.jpeg" alt="#">
-							        	<img src="Selection_017.png" alt="#">
+							        	<img src="awaazde.jpeg" alt="#">							        	
 							        	<ul class="list-inline">
 							        		<li>May - June 2015</li>
 							        	</ul>
 							          	<p>
-<br>Project guided by Professor Tapan Parikh, School of Information, UC Berkeley</br>
+										<br><b>Project guided by Professor Tapan Parikh, School of Information, UC Berkeley</b></br>
 
-<br>Need:</br>
-<p>
-India is a country with a culture of “spoken messages” instead of written/typed messages. The current mobile alternatives encourage you to type and send your messages. Also, all of them need internet to work. Awaaz De's mobile networks need no internet and you do not need to type/write. All you need to do is leave your voice message and respond to other messages vocally as well. Education is crucial for any nation’s development. Making primary education accessible for all, including kids from low income backgrounds is crucial for any society to evolve. One of the major hurdles that teachers face while teaching in municipal schools is an unfortunate lack of certain resources. If they face a problem while interacting with a child then they have nowhere to go to. This gave rise to the need for a teacher's training module.
-</p>
-<p>
-<p>
-<br>Approach:</br>
-<p>
-Using the teacher’s training module we give teachers a virtual counsellor. They can hear and gain expertise in student interaction. Our main goal while working as interns at Awaaz De was to come up with a fruitful mobile network for the TFI (Teach for India) fellows and the municipal school teachers whom they closely work with. We initially read a lot about TFI, their work ideals and methodologies. We realised that theirs was an interesting concept in which they got extremely well educated TFI fellows to teach primary kids as well as inspire the municipal school teachers present there (the ripple effect).</p>
-<p>For a start we talked to Mr. Irfan Lalani, a TFI fellow who was also teaching at “Shwaas” NGO. We went to one of their session during which they were teaching children from the nearby slum areas about problem solving and design thinking. We observed the problems they face while teaching by attending a number of their sessions. Also, we met and talked to a number of TFI fellows. After talking to them and also interacting with the AMC education officer, we realized that firstly instead of targeting the municipal school teachers who lack in motivation, we should begin with the TFI fellows. We realized that the TFI fellows were very well educated. Thus, they needed less help with general subjects and needed more assistance/guidance while handling certain psychological issues that the children faced.</p>
-<p>Most of the children from these slum areas came from difficult situations at home and bore witnesses to alcohol abuse, domestic violence and many other social evils. Thus, we decided that we should focus on psychological issues that these children face and ways through which they can be taught using certain specific interaction and teaching methods in spite of such issues. So we made two pools of students. One pool consisted of primary children who might suffer from disorders like ADHD (Attention Deficit Hyperactivity Disorder) while the other pool consisted of teenagers who might suffer from depression, peer pressure etc. Also instead of directly helping such students using an active line we thought we should start by educating teachers and parents through a passive line first. We met leading Psychiatrist Mr. Prashant Bhimani at his clinic here in Ahmedabad. He along with his intern told us how they would also gladly like to participate in one such active line in the future. His intern shed further light on ADHD. After this we started reading psychology guides and books available to learn more about ADHD. We finally came up with a short and fun script on ADHD. The script talked about the symptoms and ways of teaching such kids through a skit narrative.</p>
-<p>Around the same time we met Rohini Ma’am, she is also a TFI fellow who works closely with kids dealing with psychological disorders. She had a beautiful point to share with us that our script should never directly say the word “ADHD” or for that matter any disorder’s name. She said that this encouraged teachers to label the children based on their disorder and these labels did far more harm to a child’s psyche than the disorder itself. So we worked again on our script and gave it a more positive title. Now though the script actually talks about ADHD and more effective interaction and teaching methods, the script has nowhere the direct mention of the term “ADHD”. Also now the title reads as “More effective interaction and teaching methods”. We are grateful to Rohini Ma’am for helping us add this fine but extremely important and beautiful detail.
-</p>
-</p>
-<br>Read about our experience on the Awaaz.De blog: https://awaaz.de/blog/2015/07/intern-speak-two-young-grad-students-education-empowerment-through-technologyawaaz-de/</br>
-<br>Image Reference: https://www.linkedin.com/company/awaaz-de</br></p>
+										<br><b>Need:</b></br>
+										<p>
+										India is a country with a culture of “spoken messages” instead of written/typed messages. The current mobile alternatives encourage you to type and send your messages. Also, all of them need internet to work. Awaaz De's mobile networks need no internet and you do not need to type/write. All you need to do is leave your voice message and respond to other messages vocally as well. Education is crucial for any nation’s development. Making primary education accessible for all, including kids from low income backgrounds is crucial for any society to evolve. One of the major hurdles that teachers face while teaching in municipal schools is an unfortunate lack of certain resources. If they face a problem while interacting with a child then they have nowhere to go to. This gave rise to the need for a teacher's training module.
+										</p>
+										<p>
+										<p>
+										<br><b>Approach:</b></br>
+										<p>
+										Using the teacher’s training module we give teachers a virtual counsellor. They can hear and gain expertise in student interaction. Our main goal while working as interns at Awaaz De was to come up with a fruitful mobile network for the TFI (Teach for India) fellows and the municipal school teachers whom they closely work with. We initially read a lot about TFI, their work ideals and methodologies. We realised that theirs was an interesting concept in which they got extremely well educated TFI fellows to teach primary kids as well as inspire the municipal school teachers present there (the ripple effect).</p>
+										<p>For a start we talked to Mr. Irfan Lalani, a TFI fellow who was also teaching at “Shwaas” NGO. We went to one of their session during which they were teaching children from the nearby slum areas about problem solving and design thinking. We observed the problems they face while teaching by attending a number of their sessions. Also, we met and talked to a number of TFI fellows. After talking to them and also interacting with the AMC education officer, we realized that firstly instead of targeting the municipal school teachers who lack in motivation, we should begin with the TFI fellows. We realized that the TFI fellows were very well educated. Thus, they needed less help with general subjects and needed more assistance/guidance while handling certain psychological issues that the children faced.</p>
+										<p>Most of the children from these slum areas came from difficult situations at home and bore witnesses to alcohol abuse, domestic violence and many other social evils. Thus, we decided that we should focus on psychological issues that these children face and ways through which they can be taught using certain specific interaction and teaching methods in spite of such issues. So we made two pools of students. One pool consisted of primary children who might suffer from disorders like ADHD (Attention Deficit Hyperactivity Disorder) while the other pool consisted of teenagers who might suffer from depression, peer pressure etc. Also instead of directly helping such students using an active line we thought we should start by educating teachers and parents through a passive line first. We met leading Psychiatrist Mr. Prashant Bhimani at his clinic here in Ahmedabad. He along with his intern told us how they would also gladly like to participate in one such active line in the future. His intern shed further light on ADHD. After this we started reading psychology guides and books available to learn more about ADHD. We finally came up with a short and fun script on ADHD. The script talked about the symptoms and ways of teaching such kids through a skit narrative.</p>
+										<p>Around the same time we met Rohini Ma’am, she is also a TFI fellow who works closely with kids dealing with psychological disorders. She had a beautiful point to share with us that our script should never directly say the word “ADHD” or for that matter any disorder’s name. She said that this encouraged teachers to label the children based on their disorder and these labels did far more harm to a child’s psyche than the disorder itself. So we worked again on our script and gave it a more positive title. Now though the script actually talks about ADHD and more effective interaction and teaching methods, the script has nowhere the direct mention of the term “ADHD”. Also now the title reads as “More effective interaction and teaching methods”. We are grateful to Rohini Ma’am for helping us add this fine but extremely important and beautiful detail.
+										</p>
+										</p>
+										<br>Read about our experience on the Awaaz.De blog: https://awaaz.de/blog/2015/07/intern-speak-two-young-grad-students-education-empowerment-through-technologyawaaz-de/</br>
+										<br>Image Reference: https://www.linkedin.com/company/awaaz-de</br></p>
 							        </div>
 						        </div>
 						        <div class="modal-footer">
@@ -230,47 +236,114 @@ Using the teacher’s training module we give teachers a virtual counsellor. The
 						      <div class="modal-content text-center">
 						        <div class="modal-header">
 						          <button type="button" class="close" data-dismiss="modal">&times;</button>
-						          <h4>MACHINE LEARNING INTERNSHIP - PREDICTION OF MISSING DATA</h4>
+						          <h4><b>MACHINE LEARNING INTERNSHIP - PREDICTION OF MISSING DATA</b></h4>
 						        </div>
 						        <div class="col-md-12">
 							        <div class="modal-body col-md-8 col-md-offset-2">
 							        	<img src="dnaTail.JPG" alt="#">
 							        	<ul class="list-inline">
 							        		<li> July – December 2015</li>
+							        	</ul>
 							          	<p>
-<br>Project mentor:  Professor Mehul Raval, SEAS, AU</br>
+										<br><b>Project mentor:  Professor Mehul Raval, SEAS, AU</b></br>
 
-<br>1. Introduction</br>
-<p>Sasaki Database consists of the carcinogenicity results obtained as a result of treating the DNA obtained from different mice organs (e.g. colon, liver, stomach, brain, bone marrow and kidney) with different chemical compounds. The specific chemical compounds have been encoded according to their groups. The important input parameters given are compound I.D., compound name, route (i.e. If the compound has been introduced orally or through intravenous routes), strain (i.e. Types of mice like ddy and winstar), number of sampling hours and the dose of that particular compound. The outputs obtained are the comet essay tail lengths observed for the different organs' DNA. The DNA is negatively charged. It is put between charged plates and the compounds are introduced on it. Depending on the carcinogenicity of the introduced compounds, the DNA shows fragmentation. These fragments being negatively charged get attracted to the positive plate and hence end up leaving behind a tail.More the fragmentation, the longer is the tail length observed. Thus, this gives us an idea of the carcinogenicity of the introduced compound.</p></p>
-<p>
-<br>2. Keywords</br>
-<p>
-Carcinogenicity<br>
-DNA<br>
-Comet essay<br>
-Tail length<br>
-Linear Regression<br>
-Logistic Regression<br>
-</p>
-</p>
-<p>
-<br>3. Problem Statement:</br>
-<p>The goal was to predict the missing comet essay tail length values using the tail length values already given for the different compounds and organs.</p></p>
-<p>
-<br>4. Solution</br>
-<p>The compounds were encoded using their IDs. The strain and route values were encoded as well; the two kinds of routes i.e. “ip” and “op” were encoded using 0 and 1. All the five parameters i.e.Encoded compounds, strains, routes, sampling time and sampling dose were taken as input parameters. Each of the tail length value columns for the different organs were considered one at a time as an output for training the machine and predicting the missing values for that particular organ in consideration. Non linear and linear regression was used to predict the missing values. Also all input parameters were scaled down using their mean and maximum value.</p></p>
-<p>
-<br>5. Model:</br>
-<p>
-The linear regression model used, tried to fit a line through the set of the given values and then used this best fit to predict the missing values.<br>
-The non-linear regression fit used the sigmoid function( i.e. 1/(1+x^theta) where theta is the array of all input parameters) and predicted the missing values.<br>
-The learning rate-alpha and the number of iterations were selected separately for each organ.<br>
-</p>
-</p>
-<p>
-<br>6. Testing</br>
-<p>Once the values were predicted using a certain algorithm, in order to check their accuracy the set of already given values was divided in a ratio of 70/30, where 70 values were used to train the machine and predict the rest 30 values. Later these predicted 30 values were cross checked with the actual lab answers already given by Sasaki for those 30 inputs.</p>
-<p><br>Representational Image for explanation.</br><br>Source: http://www.cancerworld.org/Articles/Issues/41/March-April-2011/e-grand-round/457/Treatment-of-triple-negative-breast-cancer.html</br></p>
+										<br><b>1. Introduction</b></br>
+										<p>Sasaki Database consists of the carcinogenicity results obtained as a result of treating the DNA obtained from different mice organs (e.g. colon, liver, stomach, brain, bone marrow and kidney) with different chemical compounds. The specific chemical compounds have been encoded according to their groups. The important input parameters given are compound I.D., compound name, route (i.e. If the compound has been introduced orally or through intravenous routes), strain (i.e. Types of mice like ddy and winstar), number of sampling hours and the dose of that particular compound. The outputs obtained are the comet essay tail lengths observed for the different organs' DNA. The DNA is negatively charged. It is put between charged plates and the compounds are introduced on it. Depending on the carcinogenicity of the introduced compounds, the DNA shows fragmentation. These fragments being negatively charged get attracted to the positive plate and hence end up leaving behind a tail.More the fragmentation, the longer is the tail length observed. Thus, this gives us an idea of the carcinogenicity of the introduced compound.</p></p>
+										<p>
+										<br><b>2. Keywords</b></br>
+										<p>
+										Carcinogenicity<br>
+										DNA<br>
+										Comet essay<br>
+										Tail length<br>
+										Linear Regression<br>
+										Logistic Regression<br>
+										</p>
+										</p>
+										<p>
+										<br><b>3. Problem Statement:</b></br>
+										<p>The goal was to predict the missing comet essay tail length values using the tail length values already given for the different compounds and organs.</p></p>
+										<p>
+										<br><b>4. Solution</b></br>
+										<p>The compounds were encoded using their IDs. The strain and route values were encoded as well; the two kinds of routes i.e. “ip” and “op” were encoded using 0 and 1. All the five parameters i.e.Encoded compounds, strains, routes, sampling time and sampling dose were taken as input parameters. Each of the tail length value columns for the different organs were considered one at a time as an output for training the machine and predicting the missing values for that particular organ in consideration. Non linear and linear regression was used to predict the missing values. Also all input parameters were scaled down using their mean and maximum value.</p></p>
+										<p>
+										<br><b>5. Model:</b></br>
+										<p>
+										The linear regression model used, tried to fit a line through the set of the given values and then used this best fit to predict the missing values.<br>
+										Also, used a regression fit used the sigmoid function( i.e. 1/(1+x^theta) where theta is the array of all input parameters) and predicted the missing values.<br>
+										The learning rate-alpha and the number of iterations were selected separately for each organ.<br>
+										</p>
+										</p>
+										<p>
+										<br><b>6. Testing</b></br>
+										<p>Once the values were predicted using a certain algorithm, in order to check their accuracy the set of already given values was divided in a ratio of 70/30, where 70 values were used to train the machine and predict the rest 30 values. Later these predicted 30 values were cross checked with the actual lab answers already given by Sasaki for those 30 inputs. Sample results are as shown below:
+										</p>
+										<br><b>Colon Results</b></br>
+											<table style="width:100%">
+												  <tr>
+												    <th>Lab values</th>
+												    <th>Logistic Regression Answers</th> 
+												    <th>Linear Model Answers</th>
+												  </tr>
+												  <tr>
+												    <td>25.1</td>
+												    <td>25.139</td> 
+												    <td>24.492</td>
+												  </tr>
+												  <tr>
+												    <td>25.8</td>
+												    <td>26.196</td> 
+												    <td>22.939</td>
+												  </tr>
+											</table> 
+										<br><b>Lung Results</b></br>
+											<table style="width:100%">
+													  <tr>
+													    <th>Lab values</th>
+													    <th>Logistic Regression Answers</th> 												    
+													  </tr>
+													  <tr>
+													    <td>17.1</td>
+													    <td>17.434</td>													    
+													  </tr>
+													  <tr>
+													    <td>12.2</td>
+													    <td>15.642</td> 													    
+													  </tr>
+													  <tr>
+													  	<td>10.3</td>
+													  	<td>15.85</td>
+													  </tr>
+													  <tr>
+													  	<td>20.6</td>
+													  	<td>18.614</td>
+													  </tr>
+													  <tr>
+													  	<td>12.9</td>
+													  	<td>18.624</td>
+													  </tr>
+												</table> 
+										<br><b>Stomach Results</b></br>
+											<table style="width:100%">
+													  <tr>
+													    <th>Lab values</th>
+													    <th>Logistic Regression Answers</th> 												    
+													  </tr>
+													  <tr>
+													    <td>15.9</td>
+													    <td>15.434</td>													    
+													  </tr>
+													  <tr>
+													  	<td>13.9</td>
+													  	<td>15.451</td>
+													  </tr>
+											</table>      	                                            
+										</p>										
+										<p>
+										<br>7. Conclusion</br>
+										<p>Thus, the end goal of this project is to be able to determine the carcinogenecity of different chemical compunds. This will help us to decrease the usage of cancerous compunds.<b>This project was selected by Andrew Ng(Founder of Baidu Research Labs, Machine Learning Professor at Stanford) as one of the 6 projects chosen internationally in the #LearnML challenge. <a href="https://blog.coursera.org/post/135215105522/andrew-ng-announces-winners-of-learnml-contest#_=_">Click here to read about the same</a></b>
+										</p>
+										<p><br>Representational Image for explanation.</br><br>Source: http://www.cancerworld.org/Articles/Issues/41/March-April-2011/e-grand-round/457/Treatment-of-triple-negative-breast-cancer.html</br></p>
 							        </div>
 						        </div>
 						        <div class="modal-footer">
@@ -297,7 +370,7 @@ The learning rate-alpha and the number of iterations were selected separately fo
 						      <div class="modal-content text-center">
 						        <div class="modal-header">
 						          <button type="button" class="close" data-dismiss="modal">&times;</button>
-						          <h4>BLUETOOTH CONTROLLED HOME APPLIANCES-AASHRO</h4>
+						          <h4><b>BLUETOOTH CONTROLLED HOME APPLIANCES-AASHRO</b></h4>
 						        </div>
 						        <div class="col-md-12">
 							        <div class="modal-body col-md-8 col-md-offset-2">
@@ -307,28 +380,38 @@ The learning rate-alpha and the number of iterations were selected separately fo
 							        		<li>July - December 2014</li>							        		
 							        	</ul>
 							          	<p>
-<br>Aim:</br>
-<p>The project consists of an android application that communicates with a micro controller using a Bluetooth module. This micro controller then sends appropriate commands to switch the fan and light ON/OFF along with controlling fan speed. The main goal therefore is to allow the user to control lights and fans with a simple android application without actually having to stand up.</p>
-</p>
-<p>
-<br>Target Users:</br>
-<p>The target users of this product are the elderly and the handicapped. As our target users face difficulty in standing up every time they want to control their lights or fans, this product aims at making their life more comfortable by giving the controls in their hands using an extremely “simple to use” android application.</p></p>
-<p>
-<br>Why Bluetooth not wifi ?</br>
-<p>Bluetooth is a weak protocol and security is not that good. On other hand, wifi is a very secured protocol. Moreover, Bluetooth can only be used for a line to line communication but wifi can be used for a larger range using which we can access out gadgets remotely as well. However, our target users are Indian citizens who have limited access to wifi. Also, android phones that provide bluetooth connectivity are readily available in India. Besides this, Bluetooth modules are much cheaper than wifi modules, so the total production cost decreases significantly. Moreover, our goal of covering a 3 BHK home is achieved using bluetooth modules. Thus, bluetooth is ideal for our target users as it is readily available, cheaper in price and also serves the main purpose of approximately covering a 3 BHK home. Bluetooth is a communication protocol which is specially used for networking in smaller areas. It keeps transmission power extremely low and thus helps in saving battery power. Bluetooth communicates on a frequency of 2.45 gigahertz which is approved for ISM (industrial, scientific and medical) use. The range provided is 10 meters (32 feet) without intervention of other interfaces between the two connected devices.</p>
-</p>
-<p>
-<br>Types of modules with their basic functionalities:</br>
-<P>
-1. Android Bluetooth application- User sends commands using the application<br>
-2. Atmega32 ( AVR series micro-controller)- The micro controller receives the commands sent by the user using the Bluetooth module. It also has a program loaded in its memory which helps it to decide which signals need to be sent in return for the command received.<br>
-3. The 230V AC to 5V DC convertor- Uses a transformer and majorly the 7805 IC. The micro controller needs 5V DC to operate which is provided by this module.<br>
-4. Bluetooth module- For receiving signals from the mobile phone and transmitting the signals to the MCU.<br>
-5. Relay switch for light- As soon as the micro-controller sends the high signal, there is an internal inductor inside the relay which creates a strong magnetic field around it. Thus the relay acts like an electromagnetic switch which establishes the connection and makes the bulb glow.<br>
-6. Relay switch for fan along with Fan speed control- Besides simply connecting the relay which acts like an electromagnetic switch for switching the fan ON/OFF, we have also used a TRIAC for fan speed. TRIAC is a thyristor (Silicon Controlled rectifier) that acts like a switch and MOC3021 zero detector.<br>
-7. AC supply box- A box that contains headers which branch out the AC supply of 230V to all the above modules according to necessity.</br>
-</p>
-</p>
+										<br><b>Aim:</b></br>
+										<p>The project consists of an android application that communicates with a micro controller using a Bluetooth module. This micro controller then sends appropriate commands to switch the fan and light ON/OFF along with controlling fan speed. The main goal therefore is to allow the user to control lights and fans with a simple android application without actually having to stand up.</p>
+										</p>
+										<p>
+										<br><b>Target Users:</b></br>
+										<p>The target users of this product are the elderly and the handicapped. As our target users face difficulty in standing up every time they want to control their lights or fans, this product aims at making their life more comfortable by giving the controls in their hands using an extremely “simple to use” android application.</p></p>
+										<p>
+										<br><b>Why Bluetooth not wifi?</b></br>
+										<p>
+										Bluetooth is a weak protocol and security is not that good. On other hand, wifi is a very secured protocol. Moreover, Bluetooth can only be used for a line to line communication but wifi can be used for a larger range using which we can access out gadgets remotely as well. However, we selected Bluetooth over Wifi for the following reasons:<br>
+										1. Our target users are Indian citizens who have limited access to wifi.<br>
+										2. Also, android phones that provide bluetooth connectivity are readily available in India.<br>
+										3. Bluetooth modules are much cheaper than wifi modules, so the total production cost decreases significantly. Moreover, our goal of covering a 3 BHK home is achieved using bluetooth modules.<br>
+										4. It keeps transmission power extremely low and thus helps in saving battery power.<br> 
+										Thus, bluetooth is ideal for our target users as it is readily available, cheaper in price and also serves the main purpose of approximately covering a 3 BHK home. Bluetooth is a communication protocol which is specially used for networking in smaller areas. Bluetooth communicates on a frequency of 2.45 gigahertz which is approved for ISM (industrial, scientific and medical) use. The range provided is 10 meters (32 feet) without intervention of other interfaces between the two connected devices.</p>
+										</p>
+										<p>
+										<br><b>Types of modules with their basic functionalities:</b></br>
+										<P>
+										1. Android Bluetooth application- User sends commands using the application<br>
+										2. Atmega32 ( AVR series micro-controller)- The micro controller receives the commands sent by the user using the Bluetooth module. It also has a program loaded in its memory which helps it to decide which signals need to be sent in return for the command received.<br>
+										3. The 230V AC to 5V DC convertor- Uses a transformer and majorly the 7805 IC. The micro controller needs 5V DC to operate which is provided by this module.<br>
+										4. Bluetooth module- For receiving signals from the mobile phone and transmitting the signals to the MCU.<br>
+										5. Relay switch for light- As soon as the micro-controller sends the high signal, there is an internal inductor inside the relay which creates a strong magnetic field around it. Thus the relay acts like an electromagnetic switch which establishes the connection and makes the bulb glow.<br>
+										6. Relay switch for fan along with Fan speed control- Besides simply connecting the relay which acts like an electromagnetic switch for switching the fan ON/OFF, we have also used a TRIAC for fan speed. TRIAC is a thyristor (Silicon Controlled rectifier) that acts like a switch and MOC3021 zero detector.<br>
+										7. AC supply box- A box that contains headers which branch out the AC supply of 230V to all the above modules according to necessity.</br>
+										</p>
+										<p>
+										<br><b>Conclusion:</b></br>
+										<p>
+										Thus, our system "Aashro" which means "something you can rely on/take support from" was designed keeping the elderly in mind. It is a low cost system that uses bluetooth which is readily available and covers a 3 BHK on an average. This system is one step towards helping them live dignified and independent lives. 
+										</p>
 							        </div>
 						        </div>
 						        <div class="modal-footer">
@@ -355,7 +438,7 @@ The learning rate-alpha and the number of iterations were selected separately fo
 						      <div class="modal-content text-center">
 						        <div class="modal-header">
 						          <button type="button" class="close" data-dismiss="modal">&times;</button>
-						          <h4>E-LEARNING GAME DESIGN (USER CENTRED DESIGN 1)</h4>
+						          <h4><b>E-LEARNING GAME DESIGN (USER CENTRED DESIGN 1)</b></h4>
 						        </div>
 						        <div class="col-md-12">
 							        <div class="modal-body col-md-8 col-md-offset-2">
@@ -419,9 +502,9 @@ The learning rate-alpha and the number of iterations were selected separately fo
 				<!-- single portfolio item -->
 				<div class="col-md-4 col-sm-6 mix website-customization all" data-myorder="7">
 					<div class="single-work">
-						<img src="Selection_006.png" alt="#">
+						<img src="s1.JPG" alt="#">
 						<div class="overlay">
-							<h3>ORGANIC USER INTERFACE - STUDY PROJECT (USER CENTRED DESIGN 2)</h3>
+							<h3>Story-Boarding for Redesigning Transportation Experience - Coursera Assignment by Scott Clemer</h3>
 							<a href="#" data-toggle="modal" data-target="#myModal7"><i class="fa fa-search-plus"></i></a>
 							<div class="modal fade" id="myModal7" role="dialog">
 						    <div class="modal-dialog">
@@ -430,28 +513,29 @@ The learning rate-alpha and the number of iterations were selected separately fo
 						      <div class="modal-content text-center">
 						        <div class="modal-header">
 						          <button type="button" class="close" data-dismiss="modal">&times;</button>
-						          <h4>ORGANIC USER INTERFACE - STUDY PROJECT (USER CENTRED DESIGN 2)</h4>
+						          <h4>Story-Boarding for Redesigning Transportation Experience - Coursera Assignment by Scott Klemmer</h4>
 						        </div>
 						        <div class="col-md-12">
 							        <div class="modal-body col-md-8 col-md-offset-2" data-myorder="8">
-							        	<img src="Selection_006.png" alt="#">
+							        	<img src="s1.JPG" alt="#">
+							        	<img src="s2.JPG" alt="#">
+							        	<img src="s3.JPG" alt="#">
+							        	<img src="s4.JPG" alt="#">
+							        	<img src="s5.JPG" alt="#">
+							        	<img src="s6.JPG" alt="#">
 							        	<ul class="list-inline">							        		
-							        		<li>January - April 2013</li>
+							        		<li>September 2016</li>
 							        	</ul>
 							          	<p>
-<p>User interfaces with non planar displays that actively change shape and form as per the user’s interaction with the device are called organic user interfaces. The word “organic” is used because many a times these devices are paper thin and can be folded, twisted, bent and even torn just like natural paper. They lend the natural or organic feel to an interaction. These devices derive inspiration from nature. They derive inspiration from natural objects that are of amazing variety, transformable, flexible, adaptable and adaptable while extremely strong and reliable at the same time. For example the leaves of plants form strong solar panels that bend rather than break when challenged. Also they adjust on their own to maximise the solar energy received by them.</p>
-<p>
-<br>The Research covered the following topics:</br>
-1] Organic User Interface: The meaning and the thought behind the name.<br>
-2] The principles of OUI<br>
-<span style="padding-left:68px;"></span>2.1] Function equals form<br>
-<span style="padding-left:68px;"></span>2.2] Form follows flow<br>
-3] Developments in this field<br>
-<span style="padding-left:68px;"></span>3.1] HOLOWALL<br>
-<span style="padding-left:68px;"></span>3.2] SmartSkin<br>
-<span style="padding-left:68px;"></span>3.3] Where is OUI heading?<br>
-4] Organic shape changing art forms.<br>
-<br>Image Reference: From the journal “Communications to the ACM”, Organic Interaction Technology: From stone to skin by Jun Rekimoto</br></p>
+										<p>
+										<br><b>Project mentor:</b> Professor Scott Klemmer, University of California San Diego (Coursera - Introduction to HCI)</br>
+
+										<b>Idea 1:</b> Smart Drive and Smart Pick up - This application learns your daily chores like for example groceries or laundry. After which using google maps, while you are on your way to your destination ( e.g.office), it gives alerts and time estimates for all groceries or laundry places along the route. It gives you the most time efficient suggestions depending on your destination's location. It also sense traffic to be able to give suggestions. Also, it allows users to contact laundry or groceries nearby while they are stuck in traffic. One simple press of a button gives all nearby laundry/grocery places an alert. The first to respond comes and does delivery to wherever you are stuck in traffic. Thus, optimum usage of time!</p>
+
+										<p><b>Idea 2:</b> Clean Community Roads - This application's main goal is to maintain cleaner roads for pedestrians. It allows users to form teams and click/share pictures of roads that need cleaning after which they can set  "CLEAN" Challenges. They can upload and share videos of their team completing the challenge. People can then vote for the best teams using this application as well as share them on social media platforms. They can also post videos on efficient waste disposal, organic manure and such topics on the discussion forums.</p> 
+
+										<p><b>Idea 3: </b>Jetsons efficient bicycle: This bicycle converts the mechanical energy that goes into peddling to run a small AC as well as to light up the enclosed glass surface and the bicycle's headlights. The user gets to sit in an enclosed glass cabin like structure. 
+										</p>										
 							        </div>
 						        </div>
 						        <div class="modal-footer">
@@ -467,7 +551,7 @@ The learning rate-alpha and the number of iterations were selected separately fo
 				<!-- single portfolio item -->
 				<div class="col-md-4 col-sm-6 mix web-development all" data-myorder="9">
 					<div class="single-work">
-						<img src="Selection_007.png" alt="#">
+						<img src="elderly.jpg" alt="#">
 						<div class="overlay">
 							<h3>ELDERLY VIRTUAL TRAVEL EXPERIENCE PROJECT (USER CENTRED DESIGN 2)</h3>
 							<a href="#" data-toggle="modal" data-target="#myModal8"><i class="fa fa-search-plus"></i></a>
@@ -478,23 +562,24 @@ The learning rate-alpha and the number of iterations were selected separately fo
 						      <div class="modal-content text-center">
 						        <div class="modal-header">
 						          <button type="button" class="close" data-dismiss="modal">&times;</button>
-						          <h4>ELDERLY VIRTUAL TRAVEL EXPERIENCE PROJECT (USER CENTRED DESIGN 2)</h4>
+						          <h4><b>ELDERLY VIRTUAL TRAVEL EXPERIENCE PROJECT (USER CENTRED DESIGN 2)</b></h4>
 						        </div>
 						        <div class="col-md-12">
 							        <div class="modal-body col-md-8 col-md-offset-2">
-							        	<img src="Selection_007.png" alt="#">
+							        	<img src="elderly.jpg" alt="#">
 							        	<ul class="list-inline">							        		
 							        		<li>January - April 2013</li>
 							        	</ul>
 							          	<p>
-<br>Name of the Product: HTours (Stands for Home-Tours, Tagline: Bringing the World to you!)</br>
-<br>Functionality:</br>
-<p>This is a device that easily merges with the rest of your home decor, as it has a lantern shaped exterior. This device caters to the needs of elderly who are unable to go on trips or tours because of health, finance or family reasons. It has a projector which uses any one wall of your room to show you 360 degree views or panorama images of the places you choose. It has a large menu of varied places to choose from. Also, along with the virtual tours it offers the user another option of viewing his family photos or videos on the larger screen (any one wall of the room). This service is connected with a dropbox in which the user’s children or family living separately (i.e. in many cases the children live abroad), can directly upload pictures or videos. These can directly be viewed on the wall on choosing a single option.</p>
-</p>
-<p>
-<br>USP of the device:</br>
-<p>It is a first of its kind device which has kept the elderly in mind and so has given an easy one click access to the photos/videos uploaded. Also, they get to see these on a larger wall and hence the experience enhances. Also, the virtual panorama images of the many places help them to experience a place while sitting at home. One can choose to navigate as per their own wish and selected pace. It has 360 degree images of the places listed. The device is designed to act like a piece of room decor and thus no bulky projectors or screen spoil the decor of the room.</p>
-							        </p>
+											<br><b>Name of the Product: HTours (Stands for Home-Tours, Tagline: Bringing the World to you!)</b></br>
+											<br><b>Functionality:</b></br>
+											<p>This is a device that easily merges with the rest of your home decor, as it has a lantern shaped exterior. This device caters to the needs of elderly who are unable to go on trips or tours because of health, finance or family reasons. It has a projector which uses any one wall of your room to show you 360 degree views or panorama images of the places you choose. It has a large menu of varied places to choose from. Also, along with the virtual tours it offers the user another option of viewing his family photos or videos on the larger screen (any one wall of the room). This service is connected with a dropbox in which the user’s children or family living separately (i.e. in many cases the children live abroad), can directly upload pictures or videos. These can directly be viewed on the wall on choosing a single option.</p>
+											</p>
+											<p>
+											<br><b>Unique Selling Proposition of the Device:</b></br>
+											<p>It is a first of its kind device which has kept the elderly in mind and so has given an easy one click access to the photos/videos uploaded. Also, they get to see these on a larger wall and hence the experience enhances. Also, the virtual panorama images of the many places help them to experience a place while sitting at home. One can choose to navigate as per their own wish and selected pace. It has 360 degree images of the places listed. The device is designed to act like a piece of room decor and thus no bulky projectors or screen spoil the decor of the room.</p>
+							        </p>							        
+							        <p><br>Representational Image</br><br>Source:https://steemit.com/travel/@diana.catherine</br></p>
 							        </div>
 						        </div>
 						        <div class="modal-footer">
@@ -510,7 +595,7 @@ The learning rate-alpha and the number of iterations were selected separately fo
 				<!-- single portfolio item -->
 				<div class="col-md-4 col-sm-6 mix web-design all" data-myorder="8">
 					<div class="single-work">
-						<img src="Selection_009.png" alt="#">
+						<img src="cyclinprotien.jpg" alt="#">
 						<div class="overlay">
 							<h3>MACHINE LEARNING BASED CLASSIFICATION OF CYCLIN POTEINS (BIO-INFORMATICS)</h3>
 							<a href="#" data-toggle="modal" data-target="#myModal9"><i class="fa fa-search-plus"></i></a>
@@ -521,19 +606,20 @@ The learning rate-alpha and the number of iterations were selected separately fo
 						      <div class="modal-content text-center">
 						        <div class="modal-header">
 						          <button type="button" class="close" data-dismiss="modal">&times;</button>
-						          <h4>MACHINE LEARNING BASED CLASSIFICATION OF CYCLIN POTEINS (BIO-INFORMATICS)</h4>
+						          <h4><b>MACHINE LEARNING BASED CLASSIFICATION OF CYCLIN POTEINS (BIO-INFORMATICS)</b></h4>
 						        </div>
 						        <div class="col-md-12">
 							        <div class="modal-body col-md-8 col-md-offset-2">
-							        	<img src="Selection_009.png" alt="#">
+							        	<img src="cyclinprotien.jpg" alt="1">
 							        	<img src="Selection_023.png" alt="#">
 							        	<ul class="list-inline">							       
 							        		<li>July – December 2015</li>
 							        	</ul>
 							          	<p>
-<br>1) We identified whether a given sequence is a Cyclin protein or not using support vector machine (SVM). Cyclin proteins are a family of proteins that control the cell progression.</br>
-<br>2) The features used for classification were Amino Acids (20 features), Dipeptide bonds (400 features), Secondary Structure Composition (SSC), Position Specific Substitution Matrix (PSSM) Composition and Hybrid composition.</br>
-<br>3) We carried out this classification using Linear, Polynomial, RBF and sigmoidal kernels after which we compared the results obtained from the different kernels.</br></p>
+										<br>1) We identified whether a given sequence is a Cyclin protein or not using support vector machine (SVM). Cyclin proteins are a family of proteins that control the cell progression.</br>
+										<br>2) The features used for classification were Amino Acids (20 features), Dipeptide bonds (400 features), Secondary Structure Composition (SSC), Position Specific Substitution Matrix (PSSM) Composition and Hybrid composition.</br>
+										<br>3) We carried out this classification using Linear, Polynomial, RBF and sigmoidal kernels after which we compared the results obtained from the different kernels.</br></p>
+										<p><br>The first image is a representational image of Cyclin protiens</br><br>Source: http://www.cherrybiotech.com/portfolio/human-cells-temperature-control-of-cell-cycle-2</br></p>
 							        </div>
 						        </div>
 						        <div class="modal-footer">
@@ -552,7 +638,7 @@ The learning rate-alpha and the number of iterations were selected separately fo
 					<div class="single-work">
 						<img src="Selection_010.png" alt="#">
 						<div class="overlay">
-							<h3>FACE DETECTION & TRACKING IN VIDEO STREAMING (BIG DATA ALGORITHMS, OPTIMIZATION & MACHINE LEARNING)</h3>
+							<h3><b>FACE DETECTION & TRACKING IN VIDEO STREAMING (BIG DATA ALGORITHMS, OPTIMIZATION & MACHINE LEARNING)</b></h3>
 							<a href="#" data-toggle="modal" data-target="#myModal10"><i class="fa fa-search-plus"></i></a>
 							<div class="modal fade" id="myModal10" role="dialog">
 						    <div class="modal-dialog">
@@ -571,43 +657,41 @@ The learning rate-alpha and the number of iterations were selected separately fo
 							        		<li>Jan - May 2015</li>
 							        	</ul>
 							          	<p>
-<p>We worked on face detection for real time data streaming. We initially started with the Viola and Jones approach for face detection. Later, siting efficiency issues we worked with several approaches for face detection like the CAMshift algorithm and face detection using skin detection. We finally decided to use the KLT algorithm for face detection. In our report we discussed the KLT algorithm along with the other algorithms that we worked with. We also discussed our results and analysis of the same.</p></p>
-<p>
-<br>1) Introduction</br>
-<br>The subject of face recognition is important because of the following main reasons:</br>
-<p>
-1) Practical importance of the topic i.e. security<br>
-2) Theoretical interest from cognitive scientists.<br>
-</p>
-</p>
-<p>
-<br>Our main goals for the face recognition project were:</br>
-<p>
-1) Accurate Face Detection<br>
-2) Speed or Processing time<br>
-3) Novelty of the approach<br>
-</p>
-</p>
-<p>
-<br>2 ) Proposed Methods</br>
-<br>2.1) KLT and Eigenfaces</br>
-<p>
-Algorithm to track a single face<br>
-Step 1: Get an input frame.<br>
-Step 2: Detect face using Viola and Jones.<br>
-Step 3: Draw a polygon around the identified face.<br>
-Step 4: Detect Eigen features in the polygon.<br>
-Step 5: Initialize a tracker to the Eigen features.<br>
-Step 6: Store the features in a variable.<br>
-Step 7: Get a new frame, and repeat Step 2 to Step 4. If no new frame found go to Step 13.<br>
-Step 8: Match new Eigen feature points with the stored feature points.<br>
-Step 9: If features are found then go back to Step 5 else go to Step 8.<br>
-Step 10: Estimate the geometric transformation between the feature points.<br>
-Step 11: Apply transformation and return the frame with a polygon around the face.<br>
-Step 12: Go to Step 7.<br>
-Step 13: Stop.<br>
-</p>
-</p>
+										<p>We worked on face detection for real time data streaming. We initially started with the Viola and Jones approach for face detection. Later, siting efficiency issues we worked with several approaches for face detection like the CAMshift algorithm and face detection using skin detection. We finally decided to use the KLT(Karhunen and Loeve Transform) algorithm for face detection. In our report we discussed the KLT algorithm along with the other algorithms that we worked with. We also discussed our results and analysis of the same.</p></p>
+										<p>
+										<br><b>1) Introduction</b></br>
+										<br>The subject of face recognition is important because of the following main reasons:</br>
+										<p>
+										1) Practical importance of the topic i.e. security<br>
+										2) Theoretical interest from cognitive scientists.<br>
+										</p>
+										</p>
+										<p>
+										<br><b>2) Goals:</b></br>
+										<p>
+										1) Accurate Face Detection<br>
+										2) Speed or Processing time<br>
+										3) Novelty of the approach<br>
+										</p>
+										</p>
+										<p>
+										<br><b>3) Method:</b></br>										
+										<p>										
+										Step 1: Get an input frame.<br>
+										Step 2: Detect face using Viola and Jones.<br>
+										Step 3: Draw a polygon around the identified face.<br>
+										Step 4: Detect Eigen features in the polygon.<br>
+										Step 5: Initialize a tracker to the Eigen features.<br>
+										Step 6: Store the features in a variable.<br>
+										Step 7: Get a new frame, and repeat Step 2 to Step 4. If no new frame found go to Step 13.<br>
+										Step 8: Match new Eigen feature points with the stored feature points.<br>
+										Step 9: If features are found then go back to Step 5 else go to Step 8.<br>
+										Step 10: Estimate the geometric transformation between the feature points.<br>
+										Step 11: Apply transformation and return the frame with a polygon around the face.<br>
+										Step 12: Go to Step 7.<br>
+										Step 13: Stop.<br>
+										</p>
+										</p>
 							        </div>
 						        </div>
 						        <div class="modal-footer">
@@ -630,23 +714,14 @@ Step 13: Stop.<br>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="col-md-4">
+					<div>
 						<h3>about me</h3>
 						<p>I am an Information and Communication Technology Engineer with a background in Product Design. Human behavior fascinates me!</p>
-						<a href="about.html">Read full about me</a>
+						<a href="index.html">Read full about me</a>
 						<address>
-							E-mail: anmol.anubhai@gmail.com <br>
-							Phone: 9879994557 <br>
+							E-mail: anmol.anubhai@gmail.com <br>							
 						</address>
-					</div>
-					<div class="col-md-4">
-						<h3>Subscribe &amp; Follow</h3>
-						<p>Enter your email address to subscribe to this blog and receive notifications.</p>
-						<form action="?">
-							<input type="email" placeholder="anmol.anubhai@gmail.com">
-							<input type="submit" value="SUBSCRIBE NOW">
-						</form>						
-				</div>
+					</div>					
 			</div>
 		</div>
 		<div class="text-right">
@@ -660,9 +735,9 @@ Step 13: Stop.<br>
 					</div>
 					<div class="col-md-6 footer-menu text-right">
 						<ul class="list-inline">
-							<li><a href="index.html">home</a></li>
-							<li><a href="about.html">about</a></li>
-							<li><a href="works.html">portfolio</a></li>							
+							<li><a href="index.html">about</a></li>							
+							<li><a href="works.html">portfolio</a></li>		
+							<li><a href="achieve.html">achievements</a></li>					
 						</ul>
 					</div>
 				</div>
@@ -670,7 +745,7 @@ Step 13: Stop.<br>
 		</div>
 	</footer>
 	<!-- script tags
-	============================================================= -->
+	============================================================= -->	
 	<script src="js/jquery-2.1.1.js"></script>
 	<script src="js/jquery.mixitup.js"></script>
 	<script src="js/smoothscroll.js"></script>
