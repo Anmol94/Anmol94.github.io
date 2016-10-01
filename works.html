@@ -51,8 +51,7 @@
 						<img src="user.jpg" alt="Me" class="img-circle">
 						<h1>Anmol Anubhai</h1>
 						<h4>Information and Communication Technology | Human Computer Interaction</h4>
-						<div class="social-icons">
-							<a href="https://www.facebook.com/anmol.anubhai"><i class="fa fa-facebook"></i></a>			
+						<div class="social-icons">									
 							<a href="https://in.linkedin.com/in/anmol-anubhai-aa0b1ab0"><i class="fa fa-linkedin"></i></a>						
 							<a href="https://thinkinghat94.wordpress.com/"><i class="fa fa-wordpress"></i></a>
 						</div>
@@ -131,7 +130,7 @@
 										</p>
 										<p>
 										<br><b>Ideation</b></br>
-										<p>Based on the user analysis, we concluded that any solution designed to address this challenge must have the following characteristics: (1) It must be very low cost and ideally free, (2) It must be flexible with respect to time so that they can use it at their convenience given their household responsibilities, (3) It must be enjoyable enough not to cause boredom and ensure continuity and (4) It must be able to target the right topics and also upgrade as they progress.</p>							s
+										<p>Based on the user analysis, we concluded that any solution designed to address this challenge must have the following characteristics: (1) It must be very low cost and ideally free, (2) It must be flexible with respect to time so that they can use it at their convenience given their household responsibilities, (3) It must be enjoyable enough not to cause boredom and ensure continuity and (4) It must be able to target the right topics and also upgrade as they progress.</p>							
 										</p>
 										<p>
 										<br><b>Proposed Solution</b></br>
@@ -291,7 +290,7 @@
 										</p>										
 										<p>
 										<br>7. Conclusion</br>
-										<p>Thus, the end goal of this project is to be able to determine the missing tail length values of different chemical compunds. this will help us identify cancerous compunds. This will also help us to decrease the usage of cancerous compunds.<b>This project was selected by Andrew Ng(Founder of Baidu Research Labs, Machine Learning Professor at Stanford) as one of the 6 projects chosen internationally in the #LearnML challenge. <a href="https://blog.coursera.org/post/135215105522/andrew-ng-announces-winners-of-learnml-contest#_=_">Click here to read about the same</a></b>
+										<p>Thus, the end goal of this project is to be able to determine the missing tail length values of different chemical compunds. this will help us identify cancerous compunds. This will also help us to decrease the usage of cancerous compunds.
 										</p>
 										<p><br>Representational Image for explanation.</br><br>Source: http://www.cancerworld.org/Articles/Issues/41/March-April-2011/e-grand-round/457/Treatment-of-triple-negative-breast-cancer.html</br></p>
 							        </div>
@@ -331,37 +330,17 @@
 							        	</ul>
 							          	<p>
 										<br><b>Aim:</b></br>
-										<p>The project consists of an android application that communicates with a micro controller using a Bluetooth module. This micro controller then sends appropriate commands to switch the fan and light ON/OFF along with controlling fan speed. The main goal therefore is to allow the user to control lights and fans with a simple android application without actually having to stand up.</p>
+										<p>To enable elderly people with mobility difficulties to control lights and fans using their mobile phones and thus live with dignity and independence.</p>
 										</p>
 										<p>
-										<br><b>Target Users:</b></br>
-										<p>The target users of this product are the elderly and the handicapped. As our target users face difficulty in standing up every time they want to control their lights or fans, this product aims at making their life more comfortable by giving the controls in their hands using an extremely “simple to use” android application.</p></p>
+										<br><b>Target Users</b></br>
+										<p>Though the users primarily targeted for this product were the elderly, this can be used by anyone with mobility restrictions whether imposed by age or health. It can also be used for increasing comfort &amp; convenience for people who do not have mobility limitations. The users targeted were from developing countries where cost is an important consideration.</p></p>
 										<p>
 										<br><b>Why Bluetooth not wifi?</b></br>
 										<p>
-										Bluetooth is a weak protocol and security is not that good. On other hand, wifi is a very secured protocol. Moreover, Bluetooth can only be used for a line to line communication but wifi can be used for a larger range using which we can access out gadgets remotely as well. However, we selected Bluetooth over Wifi for the following reasons:<br>
-										1. Our target users are Indian citizens who have limited access to wifi.<br>
-										2. Also, android phones that provide bluetooth connectivity are readily available in India.<br>
-										3. Bluetooth modules are much cheaper than wifi modules, so the total production cost decreases significantly. Moreover, our goal of covering a 3 BHK home is achieved using bluetooth modules.<br>
-										4. It keeps transmission power extremely low and thus helps in saving battery power.<br> 
-										Thus, bluetooth is ideal for our target users as it is readily available, cheaper in price and also serves the main purpose of approximately covering a 3 BHK home. Bluetooth is a communication protocol which is specially used for networking in smaller areas. Bluetooth communicates on a frequency of 2.45 gigahertz which is approved for ISM (industrial, scientific and medical) use. The range provided is 10 meters (32 feet) without intervention of other interfaces between the two connected devices.</p>
+										A small hardware device, with an Atmega32 microcontroller and other necessary electrical components like inductors, relay switches etc., was proposed to be installed and wired at the switchboard. An Android application was developed to communicate with the microcontroller and the microcontroller was programmed to receive, execute and confirm instructions received from the Android Application. The instructions relating to switching on and off of lights and fans as well as increasing and decreasing of fan speeds were communicated from the Android application to the microcontroller using Bluetooth. Bluetooth, in spite of its limitations, was selected over Wi-Fi primarily to reduce cost. In India, with targeted users living in small apartments, Bluetooth range would be sufficient. Thus the user would be able to control lights and fans with a simple Android application without needing to move.
 										</p>
-										<p>
-										<br><b>Types of modules with their basic functionalities:</b></br>
-										<P>
-										1. Android Bluetooth application- User sends commands using the application<br>
-										2. Atmega32 ( AVR series micro-controller)- The micro controller receives the commands sent by the user using the Bluetooth module. It also has a program loaded in its memory which helps it to decide which signals need to be sent in return for the command received.<br>
-										3. The 230V AC to 5V DC convertor- Uses a transformer and majorly the 7805 IC. The micro controller needs 5V DC to operate which is provided by this module.<br>
-										4. Bluetooth module- For receiving signals from the mobile phone and transmitting the signals to the MCU.<br>
-										5. Relay switch for light- As soon as the micro-controller sends the high signal, there is an internal inductor inside the relay which creates a strong magnetic field around it. Thus the relay acts like an electromagnetic switch which establishes the connection and makes the bulb glow.<br>
-										6. Relay switch for fan along with Fan speed control- Besides simply connecting the relay which acts like an electromagnetic switch for switching the fan ON/OFF, we have also used a TRIAC for fan speed. TRIAC is a thyristor (Silicon Controlled rectifier) that acts like a switch and MOC3021 zero detector.<br>
-										7. AC supply box- A box that contains headers which branch out the AC supply of 230V to all the above modules according to necessity.</br>
-										</p>
-										<p>
-										<br><b>Conclusion:</b></br>
-										<p>
-										Thus, our system "Aashro" which means "something you can rely on/take support from" was designed keeping the elderly in mind. It is a low cost system that uses bluetooth which is readily available and covers a 3 BHK on an average. This system is a small step towards helping them live dignified and independent lives. 
-										</p>
+										</p>										
 							        </div>
 						        </div>
 						        <div class="modal-footer">
@@ -393,8 +372,7 @@
 						        <div class="col-md-12">
 							        <div class="modal-body col-md-8 col-md-offset-2">
 							        	<img src="Selection_002.png" alt="#">
-							        	<img src="Selection_003.png" alt="#">
-							        	<img src="Selection_004.png" alt="#">
+							        	<img src="Selection_003.png" alt="#">							        	
 							        	<img src="Selection_005.png" alt="#">
 							        	<ul class="list-inline">							        		
 							        		<li>April - December 2012</li>							        		
@@ -437,6 +415,14 @@
 							        		<li>January - April 2013</li>							        		
 							        	</ul>
 							          	<p>Worked (in a team of 4) with Mr. Coen, a design researcher from Holland, for his project on developing a low-cost compact washing machine that runs without electricity. The user group targeted was low-income households in India who have space as well as electricity problems. Designed a questionnaire and conducted user survey and analysis from field visits to a number of low budget households.<br>Image Reference: http://changeclub.nl/wp-content/uploads/2014/09/Hyperwash-01.jpg</br></p>
+							          	<p><br><b>The questionnaire that was used to conduct interviews and collect data:</b></br></p>
+							          	<img src="Selection_041.png" alt="#">
+							          	<img src="Selection_042.png" alt="#">
+							          	<img src="Selection_043.png" alt="#">
+							          	<img src="Selection_044.png" alt="#">
+							          	<img src="Selection_045.png" alt="#">
+							          	<p><br><b>After analysing and categorising the collected data(a small glimpse):</b></br></p>
+							          	<img src="Selection_047.png" alt="#">
 							        </div>
 						        </div>
 						        <div class="modal-footer">
@@ -467,33 +453,32 @@
 						        </div>
 						        <div class="col-md-12">
 							        <div class="modal-body col-md-8 col-md-offset-2" data-myorder="8">
+							        	<ul class="list-inline">							        		
+							        		<li>September 2016</li>
+							        	</ul>
+							        	
+							        	<p>
+										<br><b>Project mentor:</b>(Coursera Course) Professor Scott Klemmer, University of California San Diego (Coursera - Introduction to HCI)</br></p>
+										<p><b>Idea 1:</b> Smart Drive and Smart Pick up - This application learns your daily chores like for example groceries or laundry. After which using google maps, while you are on your way to your destination ( e.g.office), it gives alerts and time estimates for all groceries or laundry places along the route. It gives you the most time efficient suggestions depending on your destination's location. It also sense traffic to be able to give suggestions. Also, it allows users to contact laundry or groceries nearby while they are stuck in traffic. One simple press of a button gives all nearby laundry/grocery places an alert. The first to respond comes and does delivery to wherever you are stuck in traffic. Thus, optimum usage of time!</p>
+										
 							        	<figcaption><strong><font size="4"><u>Idea 1 Storyboard 1</u></font></strong></figcaption>
 							        	<img src="s1.JPG" alt="Idea 1 Storyboard 1">
 							        	<figcaption><strong><font size="4"><u>Idea 1 Storyboard 2</u></font></strong></figcaption>
 							        	<img src="s2.JPG" alt="Idea 1 Storyboard 2">
+							        	<p>									
+										<p><b>Idea 2:</b> Clean Community Roads - This application's main goal is to maintain cleaner roads for pedestrians. It allows users to form teams and click/share pictures of roads that need cleaning after which they can set  "CLEAN" Challenges. They can upload and share videos of their team completing the challenge. People can then vote for the best teams using this application as well as share them on social media platforms. They can also post videos on efficient waste disposal, organic manure and such topics on the discussion forums.</p></p>
 							        	<figcaption><strong><font size="4"><u>Idea 2 Storyboard 1</u></font></strong></figcaption>
 							        	<img src="s3.JPG" alt="Idea 2 Storyboard 1">
 							        	<figcaption><strong><font size="4"><u>Idea 2 Storyboard 2</u></font></strong></figcaption>
 							        	<img src="s4.JPG" alt="Idea 2 Storyboard 2">
+							        	<p>							        	
+										<p><b>Idea 3: </b>Jetsons efficient bicycle: This bicycle converts the mechanical energy that goes into peddling to run a small AC as well as to light up the enclosed glass surface and the bicycle's headlights. The user gets to sit in an enclosed glass cabin like structure. 
+										</p>
+										</p>		
 							        	<figcaption><strong><font size="4"><u>Idea 3 Storyboard 1</u></font></strong></figcaption>
 							        	<img src="s5.JPG" alt="Idea 3 Storyboard 1">
 							        	<figcaption><strong><font size="4"><u>Idea 3 Storyboard 2</u></font></strong></figcaption>
-							        	<img src="s6.JPG" alt="Idea 3 Storyboard 2">
-							        	<ul class="list-inline">							        		
-							        		<li>September 2016</li>
-							        	</ul>
-							          	<p>
-										<p>
-										<br><b>Project mentor:</b>(Coursera Course) Professor Scott Klemmer, University of California San Diego (Coursera - Introduction to HCI)</br></p>
-
-										<p><b>Idea 1:</b> Smart Drive and Smart Pick up - This application learns your daily chores like for example groceries or laundry. After which using google maps, while you are on your way to your destination ( e.g.office), it gives alerts and time estimates for all groceries or laundry places along the route. It gives you the most time efficient suggestions depending on your destination's location. It also sense traffic to be able to give suggestions. Also, it allows users to contact laundry or groceries nearby while they are stuck in traffic. One simple press of a button gives all nearby laundry/grocery places an alert. The first to respond comes and does delivery to wherever you are stuck in traffic. Thus, optimum usage of time!</p>
-
-										<p><b>Idea 2:</b> Clean Community Roads - This application's main goal is to maintain cleaner roads for pedestrians. It allows users to form teams and click/share pictures of roads that need cleaning after which they can set  "CLEAN" Challenges. They can upload and share videos of their team completing the challenge. People can then vote for the best teams using this application as well as share them on social media platforms. They can also post videos on efficient waste disposal, organic manure and such topics on the discussion forums.</p> 
-
-										<p><b>Idea 3: </b>Jetsons efficient bicycle: This bicycle converts the mechanical energy that goes into peddling to run a small AC as well as to light up the enclosed glass surface and the bicycle's headlights. The user gets to sit in an enclosed glass cabin like structure. 
-										</p>	
-										<br><strong><font size=4>The course certficate can be viewed here: <a href="https://www.coursera.org/account/accomplishments/records/ERXNJFHZYXQA">Click here to view</a></font></br>
-										</p>									
+							        	<img src="s6.JPG" alt="Idea 3 Storyboard 2">						        							          										
 							        </div>
 						        </div>
 						        <div class="modal-footer">
