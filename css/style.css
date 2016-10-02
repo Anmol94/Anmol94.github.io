@@ -458,7 +458,7 @@ ul.navbar li a:hover, ul.navbar li a.active, .navbar-default .navbar-nav>li>a:ho
 .single-work{
 	position: relative;
 	margin-bottom: 25px;
-	overflow-y: auto;
+	overflow: hidden;
 }
 .overlay{
 	position: absolute;
@@ -546,6 +546,11 @@ ul.navbar li a:hover, ul.navbar li a.active, .navbar-default .navbar-nav>li>a:ho
 	color: inherit;
 	border-color: inherit;
 }
+.modal-body {
+    overflow-y: auto;
+    position: relative;
+}
+
 .modal-footer{
 	text-align: center;
 	border: none;
