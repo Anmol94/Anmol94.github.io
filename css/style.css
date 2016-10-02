@@ -547,8 +547,7 @@ ul.navbar li a:hover, ul.navbar li a.active, .navbar-default .navbar-nav>li>a:ho
 	border-color: inherit;
 }
 .modal-body {
-    overflow-y: auto;
-    position: relative;
+    overflow: auto;
 }
 
 .modal-footer{
