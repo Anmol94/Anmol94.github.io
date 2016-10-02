@@ -514,7 +514,8 @@ ul.navbar li a:hover, ul.navbar li a.active, .navbar-default .navbar-nav>li>a:ho
 }
 .modal-body img{
 	margin-bottom: 35px;
-	height:100%;
+	height: auto;
+	width: auto;
 }
 .modal-body p{
 	font-size: 18px;
