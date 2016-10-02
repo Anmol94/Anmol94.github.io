@@ -520,6 +520,7 @@ ul.navbar li a:hover, ul.navbar li a.active, .navbar-default .navbar-nav>li>a:ho
 	font-size: 18px;
 	color: #444444;
 	text-align: left;
+	text-align: justify;
 }
 .modal-body ul{
 	display: inline-block;

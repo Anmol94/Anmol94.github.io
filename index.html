@@ -15,23 +15,33 @@
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 	<!-- modernizr -->
-	
 	<script src="js/modernizr.js"></script>
+	<style>
+		table {
+		    font-family: arial, sans-serif;
+		    border-collapse: collapse;
+		    width: 100%;
+		}
+
+		td, th {
+		    border: 1px solid #dddddd;
+		    text-align: left;
+		    padding: 8px;
+		}
+
+		tr:nth-child(even) {
+		    background-color: #dddddd;
+		}
+	</style>
 	<!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
-    <script type="text/javascript">
-		window.history.forward();
-		function noBack() { window.history.forward(); }
-	</script>
 </head>
-
-<body onload="noBack();" onpageshow="if (event.persisted) noBack();" onunload="">
+<body>
 	<!-- ====================================================
 	header section -->
-	
-	</div>
+
 	<div class="banner" id="home"></div>
 	<header class="header">		
 		<div class="container">
@@ -41,7 +51,7 @@
 						<img src="user.jpg" alt="Me" class="img-circle">
 						<h1>Anmol Anubhai</h1>
 						<h4>Information and Communication Technology | Human Computer Interaction</h4>
-						<div class="social-icons">								
+						<div class="social-icons">									
 							<a href="https://in.linkedin.com/in/anmol-anubhai-aa0b1ab0"><i class="fa fa-linkedin"></i></a>						
 							<a href="https://thinkinghat94.wordpress.com/"><i class="fa fa-wordpress"></i></a>
 						</div>
@@ -64,8 +74,8 @@
 							    <!-- Collect the nav links, forms, and other content for toggling -->
 							    <div class="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
 							      <ul class="nav navbar-nav">
-							        <li><a class="active" href="index.html">about me</a></li>							        
-							        <li><a href="works.html">portfolio</a></li>	
+							        <li><a class="active" href="index.html">portfolio</a></li>							       
+							        <li><a href="about.html">about me</a></li>	
 							        <li><a href="achieve.html">achievements</a></li>						        
 							      </ul>
 							    </div><!-- /.navbar-collapse -->
@@ -78,26 +88,483 @@
 		</div>
 	</header><!-- end of header section -->
 
-	<!-- about section -->
-	<section class="about text-center">
+	<!-- portfolio section -->
+	<section class="works text-center">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<h2>AN ASPIRING HUMAN-COMPUTER INTERACTION DESIGNER</h2>
-					<!---img src="user.jpg" alt="" class="img-responsive"-->
-					<p>Observing, thinking, ideating, designing and building solutions, using information and computer technology, to meet user needs is my area of interest. User satisfaction from meeting of explicit needs and delight from tacit ones is what I long to see. I wish to solve real grass root level problems that can help better the society.</p>
-					<p>I have done my Bachelor’s in Information and Communication Technology with a component in user-centered design. I am currently working at an artificial intelligence based startup that is making chatbots for a variety of service sectors. Along with technology, I enjoy creative arts too. Empathizing and studying human behavior really intrigues me. I also love to write and I have been penning down some of my thoughts on my blog.</p>
-			</div>
-		</div>
-	</section>
+				<div class="col-md-12">
+					<h2>Some of my Work</h2>
+				</div>
+				<!-- single portfolio item -->
+				<div class="col-md-4 col-sm-6 mix web-development all" data-myorder="2">
+					<div class="single-work">
+						<img src="Selection_018.png" alt="#">
+						<div class="overlay">
+							<h3>Kahinee: An IVR/VAS system for Rural Healthcare</h3>
+							<a href="#" type="button" data-toggle="modal" data-target="#myModal1"><i class="fa fa-search-plus"></i></a>
+							<!-- Modal -->
+						  <div class="modal fade" id="myModal1" role="dialog">
+						    <div class="modal-dialog">
+						    
+						      <!-- Modal content-->
+						      <div class="modal-content text-center">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal">&times;</button>
+						          <h4><b>Kahinee: An IVR/VAS initiative for Rural Healthcare</b></h4>
+						        </div>
+						        <div class="col-md-12">
+							        <div class="modal-body col-md-8 col-md-offset-2">
+							        	<img src="Selection_019.png" alt="#">
+							        	<img src="bb1.jpg" alt="#">
+							        	<img src="bb.jpg" alt="#">
+							        	<img src="Selection_021.png" alt="#">
+							        	<img src="bb2.PNG" alt="#">
+							        	<ul class="list-inline">
+							        		<li>Incubated at Venture Studio</li>
+							        		<li>Dec 2015 - April 2016</li>
+							        		<li>www.kahinee.in</li>
+							        	</ul>
+							        	<p>
+							        	<br><b>Aim</b></br>
+							        	<p>To reduce health hazards and mortality rates in rural women through increasing their awareness on healthcare.</p>
+							        	<p>						          	
+										<bold><br><b>User Survey and Analysis</b></br>										
+										<p>We carried out field research in the villages in and around Ahmedabad interviewing rural women, doctors and medical staff working at local health centres. We observed and realised that problems like early marriages and young mothers along with illiteracy, carelessness and sometimes even hesitation to seek timely medical assistance were the key causes of a high mortality rate amongst these rural women and new born babies. Illiteracy was a major hurdle to their learning about healthcare information and there was a resistance to formal methods of learning due to issues related to embarrassment, orthodoxy, household responsibilities, lack of resources etc.</p>
+										</p>
+										<p>
+										<br><b>Ideation</b></br>
+										<p>Based on the user analysis, we concluded that any solution designed to address this challenge must have the following characteristics: (1) It must be very low cost and ideally free, (2) It must be flexible with respect to time so that they can use it at their convenience given their household responsibilities, (3) It must be enjoyable enough not to cause boredom and ensure continuity and (4) It must be able to target the right topics and also upgrade as they progress.</p>							
+										</p>
+										<p>
+										<br><b>Proposed Solution</b></br>
+										<p>We designed a free Voice Assisted Mobile Service – Kahinee, A Spirited Storyteller. This was a free mobile service (we had observed that almost all of them had basic mobile phones). The women could dial in free of charge to these mobile numbers and listen to interesting stories, audio plays and local folk-lore at their convenient time. The stories and folk-lore, designed in their local language and accent, contained within them key instructions and information about important/current healthcare matters. Initially the aim was to impart awareness about maternal and child care, nutrition, anaemia and government health policies as well as facilities. The call data was collected in the cloud for analysis and potential automated learning based improvements. This could be used to decide the topics to be prioritized, the frequency and relay-times for different topics, the topics to upgrade content on etc.
+										</p>
+										<p>
+										After having come to this stage we learnt about the activities of Barakat Bundle, USA and seeing synergy, we approached and collaborated with them for pilot tests in the Jhagadia district at Bharuch. The pilot test feedback was very encouraging.
+										</p>
+										<p><br><b>A future Possibility</b></br>
+										<p>
+										A future extension of this idea could be to add a facility using which people in rural areas can leave an audio note describing their symptoms in their local language which can be answered using an audio note by doctors on the Kahinee network asynchronously.
+										</p>
+										</p>
+							        </div>
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Close <i class="fa fa-times"></i></button>
+						        </div>
+						      </div>
+						      
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- single portfolio item -->
+				<div class="col-md-4 col-sm-6 mix website-customization all" data-myorder="1">
+					<div class="single-work">
+						<img src="awaazde.jpeg" alt="#">
+						<div class="overlay">
+							<h3>PRODUCT DESIGN INTERNSHIP AT AWAAZ.DE</h3>
+							<a href="#" data-toggle="modal" data-target="#myModal2"><i class="fa fa-search-plus"></i></a>
+							<div class="modal fade" id="myModal2" role="dialog">
+						    <div class="modal-dialog">
+						    
+						      <!-- Modal content-->
+						      <div class="modal-content text-center">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal">&times;</button>
+						          <h4><b>PRODUCT DESIGN INTERNSHIP AT AWAAZ.DE</b></h4>
+						        </div>
+						        <div class="col-md-12">
+							        <div class="modal-body col-md-8 col-md-offset-2">
+							        	<img src="awaazde.jpeg" alt="#">							        	
+							        	<ul class="list-inline">
+							        		<li>May - June 2015</li>
+							        	</ul>
+							          	<p>
+										<br><b>Internship Experience at Awaaz.De under guidance of: Professor Tapan Parikh, Cornell Tech, USA (earlier at School of Information, UC Berkeley)</b></br>
 
+										<br><b>Aim</b></br>
+										<p>
+										The aim was to set up a mobile network for TFI fellows and the municipal school teachers whom they closely work with to resolve their concerns and questions and thus improve their ability in imparting education to children.
+										</p>
+										<p>
+										<p>
+										<br><b>User Study</b></br>
+										<p>
+										Making quality primary education accessible for all, including kids from low income backgrounds is crucial for any society to evolve. In India, kids from low income families attend municipal schools where quality and attendance need attention. One of the major hurdles that teachers face while teaching in municipal schools is an unfortunate scarcity of resources and guidance. If they face a problem while interacting with a child they have nowhere to go to. Thus there is a need to provide assistive guidance to municipal school teachers.</p>
+										<p>Teach For India (TFI) is an organization dedicated to the improvement of education quality and reach for children from low-income families with a goal to work towards education equity. Their model and methodology are impressive. They recruit extremely well educated/qualified TFI fellows to commit two full-time years to teach primary kids in such under-resourced schools. This would improve education and also inspire the other municipal school teachers present there (the ripple effect).</p>
+										<p>Towards our aim, we decided to first meet some TFI fellows to understand greater details. To start with, we talked to a TFI fellow at “Shwaas” NGO. We attended a number of their sessions and observed the problems they faced while teaching. Then we talked to a number of other TFI fellows. After talking to them and also interacting with the Ahmedabad Municipal Corporation (AMC) education officer, we realized that instead of first targeting the municipal school teachers, who lack in motivation, we should begin with the TFI fellows who are a strong inspiration to the municipal school teachers. The TFI fellows are very well educated. Based on our interviews, we realized that they needed less help with general subjects and needed more assistance/guidance while handling certain psychological issues that the children faced.</p>
+										<p>A large number of children from low-income slum areas faced difficult situations at home and witnessed alcohol abuse, domestic violence and many other social evils. Thus, we decided to focus on psychological issues that these children face and try to find ways, using creative teaching methods, through which they can be educated in spite of such issues. We made two pools of students. One pool consisted of primary children who might suffer from disorders like ADHD (Attention Deficit Hyperactivity Disorder) while the other pool consisted of teenagers who might suffer from depression, peer pressure etc. Also instead of directly helping such students using an active line we thought we should start by educating teachers and parents through a passive line first. We met a leading Psychiatrist in Ahmedabad and learnt about ADHD. After this, we studied more about ADHD.
+										</p>
+										<p>
+										<br><b>Design Solution and Iteration</b></br>
+										<p>
+										We finally came up with a short and fun model script on ADHD. The script, recorded at Drishtee, an organization using communication and the arts for social development, described the symptoms to identify ADHD and teaching methods for ADHD-affected kids through a skit narrative.
+										</p>
+										<p>
+										For feedback we then met another TFI fellow who worked closely with kids dealing with psychological disorders. She alerted us that our script should never directly use the word “ADHD” or for that matter any disorder’s name. She said that this encouraged teachers to label the children based on their disorder and these labels did far more harm to a child’s psyche than the disorder itself. Hence we re-designed the scripts based on this extremely crucial feedback. We then conducted pilot tests using these recorded scripts for teacher’s training modules.
+										</p>
+										<p>
+										The teacher’s training module would give teachers a mobile based virtual counsellor cum discussion forum thus ensuring maximum reach in view of the unavailability of internet in a large number of rural areas in India.
+										</p>
+										<p>
+										<br>
+										<a href="https://awaaz.de/blog/2015/07/intern-speak-two-young-grad-students-education-empowerment-through-technologyawaaz-de/">Click here to read about our experience on the Awaaz.De blog</a>
+										<br>Image Reference: https://www.linkedin.com/company/awaaz-de</p>
+									</p>
+							        </div>
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Close <i class="fa fa-times"></i></button>
+						        </div>
+						      </div>
+						      
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- single portfolio item -->
+				<div class="col-md-4 col-sm-6 mix web-design all" data-myorder="3">
+					<div class="single-work">
+						<img src="dnaTail.JPG" alt="#">
+						<div class="overlay">
+							<h3>MACHINE LEARNING INTERNSHIP - PREDICTION OF MISSING DATA</h3>
+							<a href="#" data-toggle="modal" data-target="#myModal3"><i class="fa fa-search-plus"></i></a>
+							<div class="modal fade" id="myModal3" role="dialog">
+						    <div class="modal-dialog">
+						    
+						      <!-- Modal content-->
+						      <div class="modal-content text-center">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal">&times;</button>
+						          <h4><b>MACHINE LEARNING INTERNSHIP - PREDICTION OF MISSING DATA</b></h4>
+						        </div>
+						        <div class="col-md-12">
+							        <div class="modal-body col-md-8 col-md-offset-2">
+							        	<img src="dnaTail.JPG" alt="#">
+							        	<ul class="list-inline">
+							        		<li> July – December 2015</li>
+							        	</ul>
+							          	<p>
+										<br><b>Project mentor:  Professor Mehul Raval, SEAS, AU</b></br>
+
+										<br><b>1. Introduction</b></br>
+										<p>Sasaki Database consists of the carcinogenicity results obtained as a result of treating the DNA obtained from different mice organs (e.g. colon, liver, stomach, brain, bone marrow and kidney) with different chemical compounds. The specific chemical compounds have been encoded according to their groups. The important input parameters given are compound I.D., compound name, route (i.e. If the compound has been introduced orally or through intravenous routes), strain (i.e. Types of mice like ddy and winstar), number of sampling hours and the dose of that particular compound. The outputs obtained are the comet essay tail lengths observed for the different organs' DNA. The DNA is negatively charged. It is put between charged plates and the compounds are introduced on it. Depending on the carcinogenicity of the introduced compounds, the DNA shows fragmentation. These fragments being negatively charged get attracted to the positive plate and hence end up leaving behind a tail.More the fragmentation, the longer is the tail length observed. Thus, this gives us an idea of the carcinogenicity of the introduced compound.</p></p>										
+										<p>
+										<br><b>3. Problem Statement:</b></br>
+										<p>The goal was to predict the missing comet essay tail length values using the tail length values already given for the different compounds and organs.</p></p>
+										<p>
+										<br><b>4. Solution</b></br>
+										<p>The compounds were encoded using their IDs. The strain and route values were encoded as well; the two kinds of routes i.e. “ip” and “op” were encoded using 0 and 1. All the five parameters i.e.Encoded compounds, strains, routes, sampling time and sampling dose were taken as input parameters. Each of the tail length value columns for the different organs were considered one at a time as an output for training the machine and predicting the missing values for that particular organ in consideration. Non linear and linear regression was used to predict the missing values. Also all input parameters were scaled down using their mean and maximum value.</p></p>
+										<p>
+										<br><b>5. Model:</b></br>
+										<p>
+										The linear regression model used, tried to fit a line through the set of the given values and then used this best fit to predict the missing values.<br>
+										Also, used a regression fit used the sigmoid function( i.e. 1/(1+x^theta) where theta is the array of all input parameters) and predicted the missing values.<br>
+										The learning rate-alpha and the number of iterations were selected separately for each organ.<br>
+										</p>
+										</p>
+										<p>
+										<br><b>6. Testing</b></br>
+										<p>Once the values were predicted using a certain algorithm, in order to check their accuracy the set of already given values was divided in a ratio of 70/30, where 70 values were used to train the machine and predict the rest 30 values. Later these predicted 30 values were cross checked with the actual lab answers already given by Sasaki for those 30 inputs. A small sample of the results is shown below:
+										</p>
+										<br><b>Colon Results</b></br>
+											<table style="width:100%">
+												  <tr>
+												    <th>Lab values</th>
+												    <th>Logistic Regression Answers</th> 
+												    <th>Linear Model Answers</th>
+												  </tr>
+												  <tr>
+												    <td>25.1</td>
+												    <td>25.139</td> 
+												    <td>24.492</td>
+												  </tr>
+												  <tr>
+												    <td>25.8</td>
+												    <td>26.196</td> 
+												    <td>22.939</td>
+												  </tr>
+											</table> 										
+										<br><b>Stomach Results</b></br>
+											<table style="width:100%">
+													  <tr>
+													    <th>Lab values</th>
+													    <th>Logistic Regression Answers</th> 												    
+													  </tr>
+													  <tr>
+													    <td>15.9</td>
+													    <td>15.434</td>													    
+													  </tr>
+													  <tr>
+													  	<td>13.9</td>
+													  	<td>15.451</td>
+													  </tr>
+											</table>      	                                            
+										</p>										
+										<p>
+										<br>7. Conclusion</br>
+										<p>Thus, the end goal of this project is to be able to determine the missing tail length values of different chemical compunds. this will help us identify cancerous compunds. This will also help us to decrease the usage of cancerous compunds. This project was selected amongst 6 contestants chosen globally in Professor Andrew Ng’s #LearnML contest. <a href="https://blog.coursera.org/post/135215105522/andrew-ng-announces-winners-of-learnml-contest#_=_">Click here to read about the same</a> <br><br>
+										</p>
+										<p><br>Representational Image for explanation.</br><br>Source: http://www.cancerworld.org/Articles/Issues/41/March-April-2011/e-grand-round/457/Treatment-of-triple-negative-breast-cancer.html</br></p>
+							        </div>
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Close <i class="fa fa-times"></i></button>
+						        </div>
+						      </div>
+						      
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- single portfolio item -->
+				<div class="col-md-4 col-sm-6 mix website-customization all" data-myorder="5">
+					<div class="single-work">
+						<img src="fan.JPG" alt="#">
+						<div class="overlay">
+							<h3>BLUETOOTH CONTROLLED HOME APPLIANCES-AASHRO</h3>
+							<a href="#" data-toggle="modal" data-target="#myModal4"><i class="fa fa-search-plus"></i></a>
+							<div class="modal fade" id="myModal4" role="dialog">
+						    <div class="modal-dialog">
+						    
+						      <!-- Modal content-->
+						      <div class="modal-content text-center">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal">&times;</button>
+						          <h4><b>BLUETOOTH CONTROLLED HOME APPLIANCES-AASHRO</b></h4>
+						        </div>
+						        <div class="col-md-12">
+							        <div class="modal-body col-md-8 col-md-offset-2">
+							        	<img src="fan.JPG" alt="#">
+							        	<img src="fan2.JPG" alt="#">
+							        	<ul class="list-inline">
+							        		<li>July - December 2014</li>							        		
+							        	</ul>
+							          	<p>
+										<br><b>Aim:</b></br>
+										<p>To enable elderly people with mobility difficulties to control lights and fans using their mobile phones and thus live with dignity and independence.</p>
+										</p>
+										<p>
+										<br><b>Target Users</b></br>
+										<p>Though the users primarily targeted for this product were the elderly, this can be used by anyone with mobility restrictions whether imposed by age or health. It can also be used for increasing comfort &amp; convenience for people who do not have mobility limitations. The users targeted were from developing countries where cost is an important consideration.</p></p>
+										<p>
+										<br><b>Solution</b></br>
+										<p>
+										A small hardware device, with an Atmega32 microcontroller and other necessary electrical components like inductors, relay switches etc., was proposed to be installed and wired at the switchboard. An Android application was developed to communicate with the microcontroller and the microcontroller was programmed to receive, execute and confirm instructions received from the Android Application. The instructions relating to switching on and off of lights and fans as well as increasing and decreasing of fan speeds were communicated from the Android application to the microcontroller using Bluetooth. Bluetooth, in spite of its limitations, was selected over Wi-Fi primarily to reduce cost. In India, with targeted users living in small apartments, Bluetooth range would be sufficient. Thus the user would be able to control lights and fans with a simple Android application without needing to move.
+										</p>
+										</p>										
+							        </div>
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Close <i class="fa fa-times"></i></button>
+						        </div>
+						      </div>
+						      
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+							
+				<!-- single portfolio item -->
+				<div class="col-md-4 col-sm-6 mix web-development all" data-myorder="6">
+					<div class="single-work">
+						<img src="wash.jpg" alt="#">
+						<div class="overlay">
+							<h3>ECONOMICAL COMPACT NON-ELECTRICAL WASHING MACHINE PROJECT (USER CENTRED DESIGN 2)</h3>
+							<a href="#" data-toggle="modal" data-target="#myModal6"><i class="fa fa-search-plus"></i></a>
+							<div class="modal fade" id="myModal6" role="dialog">
+						    <div class="modal-dialog">
+						    
+						      <!-- Modal content-->
+						      <div class="modal-content text-center">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal">&times;</button>
+						          <h4>ECONOMICAL COMPACT NON-ELECTRICAL WASHING MACHINE PROJECT (USER CENTRED DESIGN 2)</h4>
+						        </div>
+						        <div class="col-md-12">
+							        <div class="modal-body col-md-8 col-md-offset-2">
+							        	<img src="wash.jpg" alt="#">
+							        	<ul class="list-inline">							        		
+							        		<li>January - April 2013</li>							        		
+							        	</ul>
+							          	<p>Worked (in a team of 4) with Mr. Coen, a design researcher from Holland, for his project on developing a low-cost compact washing machine that runs without electricity. The user group targeted was low-income households in India who have space as well as electricity problems. Designed a questionnaire and conducted user survey and analysis from field visits to a number of low budget households.<br>Image Reference: http://changeclub.nl/wp-content/uploads/2014/09/Hyperwash-01.jpg</br></p>
+							          	<p><br><b>The questionnaire that was used to conduct interviews and collect data:</b></br></p>
+							          	<img src="Selection_041.png" alt="#">
+							          	<img src="Selection_042.png" alt="#">
+							          	<img src="Selection_043.png" alt="#">
+							          	<img src="Selection_044.png" alt="#">
+							          	<img src="Selection_045.png" alt="#">							          	
+							        </div>
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Close <i class="fa fa-times"></i></button>
+						        </div>
+						      </div>
+						      
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- single portfolio item -->
+				<div class="col-md-4 col-sm-6 mix website-customization all" data-myorder="7">
+					<div class="single-work">
+						<img src="s1.JPG" alt="#">
+						<div class="overlay">
+							<h3>Story-Boarding for Redesigning Transportation Experience - Coursera Assignment by Scott Clemer</h3>
+							<a href="#" data-toggle="modal" data-target="#myModal7"><i class="fa fa-search-plus"></i></a>
+							<div class="modal fade" id="myModal7" role="dialog">
+						    <div class="modal-dialog">
+						    
+						      <!-- Modal content-->
+						      <div class="modal-content text-center">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal">&times;</button>
+						          <h4>Story-Boarding for Redesigning Transportation Experience - Coursera Assignment by Scott Klemmer</h4>
+						        </div>
+						        <div class="col-md-12">
+							        <div class="modal-body col-md-8 col-md-offset-2" data-myorder="8">
+							        	<ul class="list-inline">							        		
+							        		<li>September 2016</li>
+							        	</ul>
+							        	
+							        	<p>
+										<br><b>Project mentor:</b>(Coursera Course) Professor Scott Klemmer, University of California San Diego (Coursera - Introduction to HCI)</br></p>
+										<p><b>Idea 1:</b> Smart Drive and Smart Pick up - This application learns your daily chores like for example groceries or laundry. After which using google maps, while you are on your way to your destination ( e.g.office), it gives alerts and time estimates for all groceries or laundry places along the route. It gives you the most time efficient suggestions depending on your destination's location. It also sense traffic to be able to give suggestions. Also, it allows users to contact laundry or groceries nearby while they are stuck in traffic. One simple press of a button gives all nearby laundry/grocery places an alert. The first to respond comes and does delivery to wherever you are stuck in traffic. Thus, optimum usage of time!</p>
+										
+							        	<figcaption><strong><font size="4"><u>Idea 1 Storyboard 1</u></font></strong></figcaption>
+							        	<img src="s1.JPG" alt="Idea 1 Storyboard 1">
+							        	<figcaption><strong><font size="4"><u>Idea 1 Storyboard 2</u></font></strong></figcaption>
+							        	<img src="s2.JPG" alt="Idea 1 Storyboard 2">
+							        	<br></br>
+							        	<p>									
+										<p><b>Idea 2:</b> Clean Community Roads - This application's main goal is to maintain cleaner roads for pedestrians. It allows users to form teams and click/share pictures of roads that need cleaning after which they can set  "CLEAN" Challenges. They can upload and share videos of their team completing the challenge. People can then vote for the best teams using this application as well as share them on social media platforms. They can also post videos on efficient waste disposal, organic manure and such topics on the discussion forums.</p></p>
+							        	<figcaption><strong><font size="4"><u>Idea 2 Storyboard 1</u></font></strong></figcaption>
+							        	<img src="s3.JPG" alt="Idea 2 Storyboard 1">
+							        	<figcaption><strong><font size="4"><u>Idea 2 Storyboard 2</u></font></strong></figcaption>
+							        	<img src="s4.JPG" alt="Idea 2 Storyboard 2">
+							        	<br></br>
+							        	<p>							        	
+										<p><b>Idea 3: </b>Jetsons efficient bicycle: This bicycle converts the mechanical energy that goes into peddling to run a small AC as well as to light up the enclosed glass surface and the bicycle's headlights. The user gets to sit in an enclosed glass cabin like structure. 
+										</p>
+										</p>		
+							        	<figcaption><strong><font size="4"><u>Idea 3 Storyboard 1</u></font></strong></figcaption>
+							        	<img src="s5.JPG" alt="Idea 3 Storyboard 1">
+							        	<figcaption><strong><font size="4"><u>Idea 3 Storyboard 2</u></font></strong></figcaption>
+							        	<img src="s6.JPG" alt="Idea 3 Storyboard 2">						        							          										
+							        </div>
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Close <i class="fa fa-times"></i></button>
+						        </div>
+						      </div>
+						      
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- single portfolio item -->
+				<div class="col-md-4 col-sm-6 mix web-development all" data-myorder="9">
+					<div class="single-work">
+						<img src="elderly.jpg" alt="#">
+						<div class="overlay">
+							<h3>ELDERLY VIRTUAL TRAVEL EXPERIENCE PROJECT (USER CENTRED DESIGN 2)</h3>
+							<a href="#" data-toggle="modal" data-target="#myModal8"><i class="fa fa-search-plus"></i></a>
+							<div class="modal fade" id="myModal8" role="dialog">
+						    <div class="modal-dialog">
+						    
+						      <!-- Modal content-->
+						      <div class="modal-content text-center">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal">&times;</button>
+						          <h4><b>ELDERLY VIRTUAL TRAVEL EXPERIENCE PROJECT (USER CENTRED DESIGN 2)</b></h4>
+						        </div>
+						        <div class="col-md-12">
+							        <div class="modal-body col-md-8 col-md-offset-2">
+							        	<img src="elderly.jpg" alt="#">
+							        	<ul class="list-inline">							        		
+							        		<li>January - April 2013</li>
+							        	</ul>
+							          	<p>
+											<br><b>Name of the Product: HTours (Stands for Home-Tours, Tagline: Bringing the World to you!)</b></br>
+											<br><b>Functionality:</b></br>
+											<p>This is a device that easily merges with the rest of your home decor, as it has a lantern shaped exterior. This device caters to the needs of elderly who are unable to go on trips or tours because of health, finance or family reasons. It has a projector which uses any one wall of your room to show you 360 degree views or panorama images of the places you choose. It has a large menu of varied places to choose from. Also, along with the virtual tours it offers the user another option of viewing his family photos or videos on the larger screen (any one wall of the room). This service is connected with a dropbox in which the user’s children or family living separately (i.e. in many cases the children live abroad), can directly upload pictures or videos. These can directly be viewed on the wall on choosing a single option.</p>
+											</p>
+											<p>
+											<br><b>Unique Selling Proposition of the Device:</b></br>
+											<p>It is a first of its kind device which has kept the elderly in mind and so has given an easy one click access to the photos/videos uploaded. Also, they get to see these on a larger wall and hence the experience enhances. Also, the virtual panorama images of the many places help them to experience a place while sitting at home. One can choose to navigate as per their own wish and selected pace. It has 360 degree images of the places listed. The device is designed to act like a piece of room decor and thus no bulky projectors or screen spoil the decor of the room.</p>
+							        </p>							        
+							        <p><br>Representational Image</br><br>Source:https://steemit.com/travel/@diana.catherine</br></p>
+							        </div>
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Close <i class="fa fa-times"></i></button>
+						        </div>
+						      </div>
+						      
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- single portfolio item -->
+				<div class="col-md-4 col-sm-6 mix web-design all" data-myorder="8">
+					<div class="single-work">
+						<img src="cyclinprotien.jpg" alt="#">
+						<div class="overlay">
+							<h3>MACHINE LEARNING BASED CLASSIFICATION OF CYCLIN POTEINS (BIO-INFORMATICS)</h3>
+							<a href="#" data-toggle="modal" data-target="#myModal9"><i class="fa fa-search-plus"></i></a>
+							<div class="modal fade" id="myModal9" role="dialog">
+						    <div class="modal-dialog">
+						    
+						      <!-- Modal content-->
+						      <div class="modal-content text-center">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal">&times;</button>
+						          <h4><b>MACHINE LEARNING BASED CLASSIFICATION OF CYCLIN POTEINS (BIO-INFORMATICS)</b></h4>
+						        </div>
+						        <div class="col-md-12">
+							        <div class="modal-body col-md-8 col-md-offset-2">
+							        	<img src="cyclinprotien.jpg" alt="1">
+							        	<img src="Selection_023.png" alt="#">
+							        	<ul class="list-inline">							       
+							        		<li>July – December 2015</li>
+							        	</ul>
+							          	<p>
+										<br>1) We identified whether a given sequence is a Cyclin protein or not using support vector machine (SVM). Cyclin proteins are a family of proteins that control the cell progression.</br>
+										<br>2) The features used for classification were Amino Acids (20 features), Dipeptide bonds (400 features), Secondary Structure Composition (SSC), Position Specific Substitution Matrix (PSSM) Composition and Hybrid composition.</br>
+										<br>3) We carried out this classification using Linear, Polynomial, RBF and sigmoidal kernels after which we compared the results obtained from the different kernels.</br></p>
+										<p><br>The first image is a representational image of Cyclin protiens</br><br>Source: http://www.cherrybiotech.com/portfolio/human-cells-temperature-control-of-cell-cycle-2</br></p>
+							        </div>
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Close <i class="fa fa-times"></i></button>
+						        </div>
+						      </div>
+						      
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+					<!-- single portfolio item -->
+	</section>
+				
+	
 	<footer class="footer">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
 					<div>
 						<h3>about me</h3>
-						<p>I am an Information and Communication Technology Engineer with a background in Product Design. Human behavior fascinates me!</p>						
+						<p>I am an Information and Communication Technology Engineer with a background in User Centred Design. Human behaviour fascinates me!</p>						
 						<address>
 							E-mail: anmol.anubhai@gmail.com <br>							
 						</address>
@@ -115,20 +582,20 @@
 					</div>
 					<div class="col-md-6 footer-menu text-right">
 						<ul class="list-inline">
-							<li><a href="index.html">about</a></li>							
-							<li><a href="works.html">portfolio</a></li>		
+							<li><a href="index.html">portfolio</a></li>							
+							<li><a href="about.html">about me</a></li>		
 							<li><a href="achieve.html">achievements</a></li>					
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
-	</footer>
-	<!-- script tags
-	============================================================= -->
+	</footer>	
 	<script src="js/jquery-2.1.1.js"></script>
+	<script src="js/jquery.mixitup.js"></script>
 	<script src="js/smoothscroll.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/custom.js"></script>
 </body>
 </html>
+
