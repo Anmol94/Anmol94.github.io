@@ -1,0 +1,177 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Anmol Anubhai's personal webpage  and profile">
+    <meta name="author" content="Anmol Anubhai">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Google fonts -->
+    <link href='https://fonts.googleapis.com/css?family=PT+Serif:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    <!-- modernizr -->
+    <script src="/js/modernizr.js"></script>
+    <style>
+		table {
+		    font-family: arial, sans-serif;
+		    border-collapse: collapse;
+		    width: 100%;
+		}
+
+		td, th {
+		    border: 1px solid #dddddd;
+		    text-align: left;
+		    padding: 8px;
+		}
+
+		tr:nth-child(even) {
+		    background-color: #dddddd;
+		}
+
+
+
+
+
+    </style>
+    <!--[if lt IE 9]>
+    <script src="/js/html5shiv.js"></script>
+    <script src="/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<title>Anmol Anubhai | Kahinee</title>
+
+<body>
+<h1></h1>
+<div class="single-work">
+
+    <div class="modal-dialog">
+        <div class="modal-content text-center">
+            <div class="modal-header">
+                <h4><b>MACHINE LEARNING INTERNSHIP - PREDICTION OF MISSING DATA</b></h4>
+            </div>
+            <div class="col-md-12">
+                <div class="modal-body col-md-8 col-md-offset-2">
+                    <img src="../dnaTail.JPG" alt="#">
+                    <ul class="list-inline">
+                        <li> July – December 2015</li>
+                    </ul>
+                    <p>
+                        <br><b>Project mentor:  Professor Mehul Raval, SEAS, AU</b></br>
+
+                        <br><b>1. Introduction</b></br>
+                    <p>Sasaki Database consists of the carcinogenicity results obtained as a result of treating the DNA obtained from different mice organs (e.g. colon, liver, stomach, brain, bone marrow and kidney) with different chemical compounds. The specific chemical compounds have been encoded according to their groups. The important input parameters given are compound I.D., compound name, route (i.e. If the compound has been introduced orally or through intravenous routes), strain (i.e. Types of mice like ddy and winstar), number of sampling hours and the dose of that particular compound. The outputs obtained are the comet essay tail lengths observed for the different organs' DNA. The DNA is negatively charged. It is put between charged plates and the compounds are introduced on it. Depending on the carcinogenicity of the introduced compounds, the DNA shows fragmentation. These fragments being negatively charged get attracted to the positive plate and hence end up leaving behind a tail.More the fragmentation, the longer is the tail length observed. Thus, this gives us an idea of the carcinogenicity of the introduced compound.</p></p>
+                    <p>
+                        <br><b>3. Problem Statement:</b></br>
+                    <p>The goal was to predict the missing comet essay tail length values using the tail length values already given for the different compounds and organs.</p></p>
+                    <p>
+                        <br><b>4. Solution</b></br>
+                    <p>The compounds were encoded using their IDs. The strain and route values were encoded as well; the two kinds of routes i.e. “ip” and “op” were encoded using 0 and 1. All the five parameters i.e.Encoded compounds, strains, routes, sampling time and sampling dose were taken as input parameters. Each of the tail length value columns for the different organs were considered one at a time as an output for training the machine and predicting the missing values for that particular organ in consideration. Non linear and linear regression was used to predict the missing values. Also all input parameters were scaled down using their mean and maximum value.</p></p>
+                    <p>
+                        <br><b>5. Model:</b></br>
+                    <p>
+                        The linear regression model used, tried to fit a line through the set of the given values and then used this best fit to predict the missing values.<br>
+                        Also, used a regression fit used the sigmoid function( i.e. 1/(1+x^theta) where theta is the array of all input parameters) and predicted the missing values.<br>
+                        The learning rate-alpha and the number of iterations were selected separately for each organ.<br>
+                    </p>
+                    </p>
+                    <p>
+                        <br><b>6. Testing</b></br>
+                    <p>Once the values were predicted using a certain algorithm, in order to check their accuracy the set of already given values was divided in a ratio of 70/30, where 70 values were used to train the machine and predict the rest 30 values. Later these predicted 30 values were cross checked with the actual lab answers already given by Sasaki for those 30 inputs. A small sample of the results is shown below:
+                    </p>
+                    <br><b>Colon Results</b></br>
+                    <table style="width:100%">
+                        <tr>
+                            <th>Lab values</th>
+                            <th>Logistic Regression Answers</th>
+                            <th>Linear Model Answers</th>
+                        </tr>
+                        <tr>
+                            <td>25.1</td>
+                            <td>25.139</td>
+                            <td>24.492</td>
+                        </tr>
+                        <tr>
+                            <td>25.8</td>
+                            <td>26.196</td>
+                            <td>22.939</td>
+                        </tr>
+                    </table>
+                    <br><b>Stomach Results</b></br>
+                    <table style="width:100%">
+                        <tr>
+                            <th>Lab values</th>
+                            <th>Logistic Regression Answers</th>
+                        </tr>
+                        <tr>
+                            <td>15.9</td>
+                            <td>15.434</td>
+                        </tr>
+                        <tr>
+                            <td>13.9</td>
+                            <td>15.451</td>
+                        </tr>
+                    </table>
+                    </p>
+                    <p>
+                        <br>7. Conclusion</br>
+                    <p>Thus, the end goal of this project is to be able to determine the missing tail length values of different chemical compunds. this will help us identify cancerous compunds. This will also help us to decrease the usage of cancerous compunds. This project was selected amongst 6 contestants chosen globally in Professor Andrew Ng’s #LearnML contest. <a href="https://blog.coursera.org/post/135215105522/andrew-ng-announces-winners-of-learnml-contest#_=_" target="_blank">Click here to read about the same</a> <br><br>
+                    </p>
+                    <p><br>Representational Image for explanation.</br><br>Source: http://www.cancerworld.org/Articles/Issues/41/March-April-2011/e-grand-round/457/Treatment-of-triple-negative-breast-cancer.html</br></p>
+                </div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+</body>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div>
+                    <h3>about me</h3>
+                    <p>I am an Information and Communication Technology Engineer with a background in User Centred
+                        Design. Human behaviour fascinates me!</p>
+                    <address>
+                        E-mail: anmol.anubhai@gmail.com <br>
+                    </address>
+                </div>
+            </div>
+        </div>
+        <div class="text-right">
+            <a href="#home"><i class="fa fa-arrow-up"></i></a>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>2016 — Designed and Developed by Anmol Anubhai</p>
+                    </div>
+                    <div class="col-md-6 footer-menu text-right">
+                        <ul class="list-inline">
+                            <li><a href="/index.html">about me</a></li>
+                            <li><a href="/works.html">portfolio</a></li>
+                            <li><a href="/achieve.html">achievements</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- script tags
+============================================================= -->
+<script src="/js/jquery-2.1.1.js"></script>
+<script src="/js/smoothscroll.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/custom.js"></script>
+</html>
