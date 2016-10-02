@@ -458,7 +458,7 @@ ul.navbar li a:hover, ul.navbar li a.active, .navbar-default .navbar-nav>li>a:ho
 .single-work{
 	position: relative;
 	margin-bottom: 25px;
-	overflow: auto;
+	overflow-y: auto;
 }
 .overlay{
 	position: absolute;
