@@ -639,6 +639,20 @@ ul.navbar li a:hover, ul.navbar li a.active, .navbar-default .navbar-nav>li>a:ho
 		display: inline-block;
 	}
 }
+
+/* md */
+ @media (min-width: 991px) {
+	.footer{
+		text-align: center;
+	}
+	.footer-menu{
+		text-align: center;
+	}
+	.footer-menu ul{
+		display: inline-block;
+	}
+}
+
 /* xs */
 @media (min-width: 480px) and (max-width: 767px) {
 	.footer{
