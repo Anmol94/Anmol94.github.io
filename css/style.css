@@ -308,6 +308,21 @@ ul.navbar li a:hover, ul.navbar li a.active, .navbar-default .navbar-nav>li>a:ho
 .footer p{
 	font-size: 18px;
 }
+.project-footer{
+	background: #2c3e50;
+	color: #fff;
+	padding-top: 53px;
+}
+.project-footer h3{
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.project-footer p{
+	font-size: 18px;
+}
+
+
 .footer input{
 	width: 100%;
 	padding: 10px;
