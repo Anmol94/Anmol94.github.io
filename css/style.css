@@ -671,7 +671,8 @@ ul.navbar li a:hover, ul.navbar li a.active, .navbar-default .navbar-nav>li>a:ho
  @media (min-width: 991px) {
 	.footer{
 		text-align: center;
-		margin-top: auto;
+		position: fixed;
+		bottom: 0;
 	}
 	.footer-menu{
 		text-align: center;
