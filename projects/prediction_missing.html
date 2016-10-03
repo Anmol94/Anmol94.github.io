@@ -32,6 +32,13 @@
 		    background-color: #dddddd;
 		}
 
+
+
+
+
+
+
+
     </style>
     <!--[if lt IE 9]>
     <script src="/js/html5shiv.js"></script>
@@ -56,9 +63,9 @@
             <p>
                 <br><b>Project mentor: Professor Mehul Raval, SEAS, AU</b></br>
 
-                <br><b>1. Introduction</b></br>
-            <p>Sasaki Database consists of the carcinogenicity results obtained as a result of treating the DNA obtained
-                from different mice organs (e.g. colon, liver, stomach, brain, bone marrow and kidney) with different
+                <br><b>Introduction</b></br>
+            <p>The Sasaki Database consists of the carcinogenicity results obtained as a result of treating the DNA from
+                different mice organs (e.g. colon, liver, stomach, brain, bone marrow and kidney) with different
                 chemical compounds. The specific chemical compounds have been encoded according to their groups. The
                 important input parameters given are compound I.D., compound name, route (i.e. If the compound has been
                 introduced orally or through intravenous routes), strain (i.e. Types of mice like ddy and winstar),
@@ -66,38 +73,36 @@
                 essay tail lengths observed for the different organs' DNA. The DNA is negatively charged. It is put
                 between charged plates and the compounds are introduced on it. Depending on the carcinogenicity of the
                 introduced compounds, the DNA shows fragmentation. These fragments being negatively charged get
-                attracted to the positive plate and hence end up leaving behind a tail.More the fragmentation, the
+                attracted to the positive plate and hence end up leaving behind a tail. More the fragmentation, the
                 longer is the tail length observed. Thus, this gives us an idea of the carcinogenicity of the introduced
-                compound.</p></p>
+                compound.
+            </p></p>
             <p>
-                <br><b>3. Problem Statement:</b></br>
+                <br><b>Aim</b></br>
             <p>The goal was to predict the missing comet essay tail length values using the tail length values already
-                given for the different compounds and organs.</p></p>
+                given for the different compounds and organs.
+            </p></p>
             <p>
-                <br><b>4. Solution</b></br>
+                <br><b>Solution</b></br>
             <p>The compounds were encoded using their IDs. The strain and route values were encoded as well; the two
-                kinds of routes i.e. “ip” and “op” were encoded using 0 and 1. All the five parameters i.e.Encoded
+                kinds of routes i.e. “ip” and “op” were encoded using 0 and 1. All the five parameters i.e. encoded
                 compounds, strains, routes, sampling time and sampling dose were taken as input parameters. Each of the
                 tail length value columns for the different organs were considered one at a time as an output for
-                training the machine and predicting the missing values for that particular organ in consideration. Non
-                linear and linear regression was used to predict the missing values. Also all input parameters were
-                scaled down using their mean and maximum value.</p></p>
-            <p>
-                <br><b>5. Model:</b></br>
-            <p>
+                training the machine and predicting the missing values for that particular organ in consideration.
+                Linear and non-linear regression approaches were used to predict the missing values. Also all input
+                parameters were scaled down using their mean and maximum value.
                 The linear regression model used, tried to fit a line through the set of the given values and then used
-                this best fit to predict the missing values.<br>
-                Also, used a regression fit used the sigmoid function( i.e. 1/(1+x^theta) where theta is the array of
-                all input parameters) and predicted the missing values.<br>
-                The learning rate-alpha and the number of iterations were selected separately for each organ.<br>
-            </p>
+                this best fit to predict the missing values.
+                Also, used a regression fit using the sigmoid function( i.e. 1/(1+x^theta) where theta is the array of
+                all input parameters) and predicted the missing values.
+                The learning rate-alpha and the number of iterations were selected separately for each organ.
             </p>
             <p>
-                <br><b>6. Testing</b></br>
-            <p>Once the values were predicted using a certain algorithm, in order to check their accuracy the set of
-                already given values was divided in a ratio of 70/30, where 70 values were used to train the machine and
-                predict the rest 30 values. Later these predicted 30 values were cross checked with the actual lab
-                answers already given by Sasaki for those 30 inputs. A small sample of the results is shown below:
+                <br><b>Verification</b></br>
+            <p>To check the accuracy of the relationship given by the regression models, the set of already available
+                values was divided in a ratio of 70/30, where 70% values were used to train the machine and predict the
+                remaining 30% values. Later these predicted 30% values were cross checked with the actual available lab
+                answers already given by Sasaki for those 30% values. A small sample of the results is shown below:
             </p>
             <br><b>Colon Results</b></br>
             <table style="width:100%">
@@ -134,15 +139,15 @@
             </table>
             </p>
             <p>
-                <br>7. Conclusion</br>
-            <p>Thus, the end goal of this project is to be able to determine the missing tail length values of different
-                chemical compunds. this will help us identify cancerous compunds. This will also help us to decrease the
-                usage of cancerous compunds. This project was selected amongst 6 contestants chosen globally in
-                Professor Andrew Ng’s #LearnML contest. <a
+                <br>Conclusion</br>
+            <p>The completion of the dataset after predicting the missing values, I hope, will help identify cancerous
+                compounds and decrease the usage of such cancerous compounds.
+                This project was one amongst 6 contestants chosen globally as a part of Professor Andrew Ng’s #LearnML
+                contest. <a
                         href="https://blog.coursera.org/post/135215105522/andrew-ng-announces-winners-of-learnml-contest#_=_"
-                        target="_blank">Click here to read about the same</a> <br><br>
+                        target="_blank">Click here to read about the same.</a> <br><br>
             </p>
-            <p><br>Representational Image for explanation.</br><br>Source:
+            <p><br>Source:
                 http://www.cancerworld.org/Articles/Issues/41/March-April-2011/e-grand-round/457/Treatment-of-triple-negative-breast-cancer.html</br>
             </p>
         </div>
