@@ -452,8 +452,9 @@ ul.navbar li a:hover, ul.navbar li a.active, .navbar-default .navbar-nav>li>a:ho
 	color: #fff;
 }
 .single-project img {
-    width: 75%;
+    width: 85%;
     height: auto;
+    margin-bottom: 35px;
 }
 .single-work img{
 	width: 100%;
@@ -507,6 +508,7 @@ ul.navbar li a:hover, ul.navbar li a.active, .navbar-default .navbar-nav>li>a:ho
 .modal-header h4{
 	font-size: 30px;
 	color: #444444;
+    text-align: center;
 	text-transform: uppercase;
 }
 .modal-header .close{
