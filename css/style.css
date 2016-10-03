@@ -414,6 +414,18 @@ ul.navbar li a:hover, ul.navbar li a.active, .navbar-default .navbar-nav>li>a:ho
 	text-decoration: none;
 	font-size: 14px;
 }
+.project-footer-bottom{
+	border-top: 1px solid #495e74;
+}
+.project-footer-bottom p{
+	font-size: 14px;
+}
+.project-footer-bottom a{
+	text-transform: capitalize;
+	text-decoration: none;
+	font-size: 14px;
+}
+
 .fa-arrow-up{
 	margin-right: 15px;
 	padding: 7px;
