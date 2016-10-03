@@ -452,8 +452,10 @@ ul.navbar li a:hover, ul.navbar li a.active, .navbar-default .navbar-nav>li>a:ho
 	color: #fff;
 }
 .single-project img {
+    display: block;
     width: 85%;
     height: auto;
+    margin: auto;
     margin-bottom: 35px;
 }
 .single-work img{
